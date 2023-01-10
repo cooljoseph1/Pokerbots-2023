@@ -5,6 +5,7 @@ from itertools import combinations
 from os import path
 
 SAVE_PATH = "small.pt"
+CARD_ORDER = ['2c', '2d', '2h', '2s', '3c', '3d', '3h', '3s', '4c', '4d', '4h', '4s', '5c', '5d', '5h', '5s', '6c', '6d', '6h', '6s', '7c', '7d', '7h', '7s', '8c', '8d', '8h', '8s', '9c', '9d', '9h', '9s', 'Tc', 'Td', 'Th', 'Ts', 'Jc', 'Jd', 'Jh', 'Js', 'Qc', 'Qd', 'Qh', 'Qs', 'Kc', 'Kd', 'Kh', 'Ks', 'Ac', 'Ad', 'Ah', 'As']
 
 class QNN(torch.nn.Module):
     def __init__(self):
@@ -21,13 +22,11 @@ class QNN(torch.nn.Module):
 def best(hand, board):
     strength = -1
     comb = None
-    for five in combinations(board, 5):
-        if eval7.evaluate(hand + board) > strength:
-            comb = hand + board
+    for five in map(list, combinations(board, 5)):
+        if eval7.evaluate(hand + five) > strength:
+            comb = hand + five
             strength = eval7.evaluate(comb)
     return strength, comb
-
-CARD_ORDER = ['2c', '2d', '2h', '2s', '3c', '3d', '3h', '3s', '4c', '4d', '4h', '4s', '5c', '5d', '5h', '5s', '6c', '6d', '6h', '6s', '7c', '7d', '7h', '7s', '8c', '8d', '8h', '8s', '9c', '9d', '9h', '9s', 'Tc', 'Td', 'Th', 'Ts', 'Jc', 'Jd', 'Jh', 'Js', 'Qc', 'Qd', 'Qh', 'Qs', 'Kc', 'Kd', 'Kh', 'Ks', 'Ac', 'Ad', 'Ah', 'As']
 
 def data():
     ins = torch.zeros(52 * 2, dtype=torch.float)
@@ -62,32 +61,33 @@ def batch(size=64):
     outs = torch.tensor(outs)
     return ins, outs
 
-q_network = QNN()
-if path.exists(SAVE_PATH):
-    q_network.load_state_dict(torch.load(SAVE_PATH))
+if __name__ == "__main__":
+    q_network = QNN()
+    if path.exists(SAVE_PATH):
+        q_network.load_state_dict(torch.load(SAVE_PATH))
 
-q_optim = torch.optim.Adam(q_network.parameters(), lr=1e-4)
-scheduler = torch.optim.lr_scheduler.ExponentialLR(q_optim, gamma=0.8)
-q_loss = torch.nn.HuberLoss()
+    q_optim = torch.optim.Adam(q_network.parameters(), lr=1e-4)
+    scheduler = torch.optim.lr_scheduler.ExponentialLR(q_optim, gamma=0.8)
+    q_loss = torch.nn.HuberLoss()
 
-def train(ins, targets):
-    q_optim.zero_grad()
-    outs = q_network(ins)
-    loss = q_loss(outs, targets)
-    loss.backward()
-    return loss
+    def train(ins, targets):
+        q_optim.zero_grad()
+        outs = q_network(ins)
+        loss = q_loss(outs, targets)
+        loss.backward()
+        return loss
 
-test = torch.zeros((2, 2 * 52), dtype=torch.float)
-test[0, 52 + CARD_ORDER.index('As')] = 1.0
-test[0, 52 + CARD_ORDER.index('Ac')] = 1.0
-test[1, 52 + CARD_ORDER.index('2s')] = 1.0
-test[1, 52 + CARD_ORDER.index('7c')] = 1.0
+    test = torch.zeros((2, 2 * 52), dtype=torch.float)
+    test[0, 52 + CARD_ORDER.index('As')] = 1.0
+    test[0, 52 + CARD_ORDER.index('Ac')] = 1.0
+    test[1, 52 + CARD_ORDER.index('2s')] = 1.0
+    test[1, 52 + CARD_ORDER.index('7c')] = 1.0
 
-for epoch in range(20):
-    for i in range(1000):
-        train(*batch())
-        q_optim.step()
-    scheduler.step()
-    print(q_network(test))
+    for epoch in range(20):
+        for i in range(1000):
+            train(*batch())
+            q_optim.step()
+        scheduler.step()
+        print(q_network(test))
 
-torch.save(q_network.state_dict(), SAVE_PATH)
+    torch.save(q_network.state_dict(), SAVE_PATH)
