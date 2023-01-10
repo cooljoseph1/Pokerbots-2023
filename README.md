@@ -2,6 +2,12 @@
 This is the code that James and Joseph are using for the poerkbots code. It's copied
 off the MIT Pokerbots' engine repo.
 
+## How to run.
+Check out `run.py`. Example usage:
+```
+run.py ./python_skeleton ./python_skeleton
+```
+
 ## MIT Pokerbots Engine
 MIT Pokerbots engine and skeleton bots in Python, Java, and C++.
 
