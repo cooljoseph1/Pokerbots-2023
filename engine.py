@@ -224,8 +224,9 @@ class Player():
                         print(self.name, 'connected successfully')
             except (TypeError, ValueError):
                 print(self.name, 'run command misformatted')
-            except OSError:
+            except OSError as e:
                 print(self.name, 'run failed - check "run" in commands.json')
+                print(e)
             except socket.timeout:
                 print('Timed out waiting for', self.name, 'to connect')
 

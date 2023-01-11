@@ -5,8 +5,28 @@ off the MIT Pokerbots' engine repo.
 ## How to run.
 Check out `run.py`. Example usage:
 ```
-run.py ./python_skeleton ./python_skeleton
+run.py random_bot random_bot
 ```
+-----
+
+## Strategy
+
+1. Use an AI qtable to approximate winning chances given the current hand/board.
+2. Use the Kelly Criterion to place bets.
+
+### Math Explanations.
+Suppose you have a $p$ chance of winning. There are $n$ chips in the pot and you have $c$ chips in your hand. What is the largest number of chips you can add to the pot so that your expected log winnings do not decrease? We need
+$$\log c = p\log(c + n) + (1 - p)\log(c - x)$$
+$$\Longleftrightarrow$$
+$$x = c - \exp\left[\frac{\log c - p\log(c+n)}{1-p}\right]$$
+
+![Kelly Criterion Graph](images/kelly_criterion.png)
+
+We bet a maximum of this amount. We want our opponents to be losing money if they call, so we may bet a smaller amount. Let $d$ be the number of chips in their hand, and $q = 1 - p$ their chance of winning. They'd win an additional $x$ chips (because that's how many we'll have just put in), so if possible we should lower our bet to satisfy
+$$q\log(d+n+x) + (1-q)\log(d-x) = \log d$$
+(assuming $n$ takes into account the check/continue cost).
+
+-----
 
 ## MIT Pokerbots Engine
 MIT Pokerbots engine and skeleton bots in Python, Java, and C++.
