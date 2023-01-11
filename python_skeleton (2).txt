@@ -1,871 +1,960 @@
 C:\Users\James Camacho\Documents\College\Freshman\Pokerbots-2023\python_skeleton\stats\kelly.py:11: RuntimeWarning: invalid value encountered in log
   return (1-q)*np.log(d-x)+q*np.log(d+n+x)-np.log(d)
-ROUND 1; max_bet = 5 (5.698035560585822)
-continue_cost = 0
-n = 4, p = 0.5905, c = 398, my/opp_pip = 2/2
-opp_bet = 8.336958814293158
-min_cost=2, max_cost=398, bet=5
-ROUND 1; max_bet = 16 (16.39385231415372)
-continue_cost = 0
-n = 14, p = 0.549, c = 393, my/opp_pip = 0/0
-opp_bet = 38.4015432763084
-min_cost=2, max_cost=393, bet=16
-ROUND 2; max_bet = 1 (1.7365113391941804)
-continue_cost = 1
-n = 3, p = 0.368, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=1
-ROUND 2; max_bet = 5 (5.021976196771959)
-continue_cost = 6
-n = 10, p = 0.3385, c = 398, my/opp_pip = 2/8
-ROUND 3; max_bet = 6 (6.4818834048604685)
-continue_cost = 0
-n = 4, p = 0.6215, c = 398, my/opp_pip = 2/2
-opp_bet = 5.926777163780874
-min_cost=2, max_cost=398, bet=5
-ROUND 3; max_bet = 14 (14.339180589345915)
-continue_cost = 0
-n = 14, p = 0.515, c = 393, my/opp_pip = 0/0
-opp_bet = 56.684714393282164
-min_cost=2, max_cost=393, bet=14
-ROUND 3; max_bet = 31 (31.591938961435858)
-continue_cost = 0
-n = 42, p = 0.453, c = 379, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=379, bet=31
-ROUND 4; max_bet = 3 (3.342741761557761)
-continue_cost = 1
-n = 3, p = 0.529, c = 399, my/opp_pip = 1/2
-opp_bet = 21.062072755827696
-min_cost=3, max_cost=399, bet=3
-ROUND 4; max_bet = 12 (12.091261490285092)
-continue_cost = 4
-n = 12, p = 0.5095, c = 396, my/opp_pip = 4/8
-opp_bet = 64.53638611370444
-min_cost=8, max_cost=396, bet=12
-ROUND 4; max_bet = 48 (48.14607735138543)
-continue_cost = 22
-n = 54, p = 0.5045, c = 384, my/opp_pip = 16/38
-opp_bet = 129.04082118972812
-min_cost=44, max_cost=384, bet=48
-ROUND 4; max_bet = 158 (158.53839479866974)
-continue_cost = 72
-n = 200, p = 0.5775, c = 336, my/opp_pip = 64/136
-opp_bet = 129.82253125895838
-min_cost=144, max_cost=336, bet=158
-ROUND 4; max_bet = 135 (135.21952249740235)
-continue_cost = 125
-n = 569, p = 0.4985, c = 178, my/opp_pip = 0/125
-opp_bet = inf
-min_cost=178, max_cost=178, bet=135
-ROUND 4; max_bet = 46 (46.04470056552835)
-continue_cost = 2
-n = 696, p = 0.434, c = 53, my/opp_pip = 0/2
-opp_bet = inf
-min_cost=4, max_cost=53, bet=46
-ROUND 4; max_bet = 6 (6.639336930302564)
-continue_cost = 6
-n = 792, p = 0.385, c = 7, my/opp_pip = 0/6
-opp_bet = inf
-min_cost=7, max_cost=7, bet=6
-ROUND 4; max_bet = 0 (0.9953943316136636)
-continue_cost = 0
-n = 798, p = 0.446, c = 1, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=1, max_cost=1, bet=0
-ROUND 4; max_bet = 0 (0.9907478485571042)
-continue_cost = 0
-n = 798, p = 0.412, c = 1, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=1, max_cost=1, bet=0
-ROUND 4; max_bet = 0 (0.9999998182249706)
-continue_cost = 0
-n = 798, p = 0.699, c = 1, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=1, max_cost=1, bet=0
-ROUND 5; max_bet = 5 (5.2198505739882535)
-continue_cost = 0
-n = 4, p = 0.569, c = 398, my/opp_pip = 2/2
-opp_bet = 10.994275875550068
-min_cost=2, max_cost=398, bet=5
-ROUND 5; max_bet = 9 (9.502203105357978)
-continue_cost = 0
-n = 14, p = 0.4115, c = 393, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=393, bet=9
-ROUND 6; max_bet = 2 (2.0973054698486635)
-continue_cost = 1
-n = 3, p = 0.413, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=2
-ROUND 6; max_bet = 5 (5.901349037280909)
-continue_cost = 5
-n = 9, p = 0.4005, c = 398, my/opp_pip = 2/7
-opp_bet = inf
-min_cost=10, max_cost=398, bet=5
-ROUND 6; max_bet = 11 (11.137786309677324)
-continue_cost = 16
-n = 30, p = 0.281, c = 393, my/opp_pip = 0/16
-ROUND 7; max_bet = 4 (4.047842925467705)
-continue_cost = 0
-n = 4, p = 0.5055, c = 398, my/opp_pip = 2/2
-opp_bet = 33.816374656899086
-min_cost=2, max_cost=398, bet=4
-ROUND 7; max_bet = 14 (14.186549028630338)
-continue_cost = 4
-n = 16, p = 0.4795, c = 394, my/opp_pip = 6/10
-opp_bet = inf
-min_cost=8, max_cost=394, bet=14
-ROUND 7; max_bet = 53 (53.228273159930836)
-continue_cost = 15
-n = 55, p = 0.5275, c = 380, my/opp_pip = 20/35
-opp_bet = 110.19994128786408
-min_cost=30, max_cost=380, bet=53
-ROUND 7; max_bet = 77 (77.25181667744621)
-continue_cost = 0
-n = 146, p = 0.422, c = 327, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=327, bet=77
-ROUND 7; max_bet = 246 (246.71270417586516)
-continue_cost = 0
-n = 300, p = 0.846, c = 250, my/opp_pip = 0/0
-opp_bet = 35.9040641493371
-min_cost=2, max_cost=250, bet=35
-ROUND 7; max_bet = 214 (214.60695417746678)
-continue_cost = 44
-n = 414, p = 0.8545, c = 215, my/opp_pip = 35/79
-opp_bet = 35.28005930430848
-min_cost=88, max_cost=215, bet=88
-ROUND 7; max_bet = 127 (127.0)
-continue_cost = 0
-n = 546, p = 0.9845, c = 127, my/opp_pip = 0/0
-opp_bet = 3.3004087720685837
-min_cost=2, max_cost=127, bet=3
-ROUND 7; max_bet = 124 (124.0)
-continue_cost = 34
-n = 586, p = 0.9845, c = 124, my/opp_pip = 3/37
-opp_bet = 2.885161847292216
-min_cost=68, max_cost=124, bet=68
-ROUND 8; max_bet = 3 (3.129709581997247)
-continue_cost = 1
-n = 3, p = 0.5125, c = 399, my/opp_pip = 1/2
-opp_bet = 29.228094949756954
-min_cost=3, max_cost=399, bet=3
-ROUND 8; max_bet = 8 (8.122506333642718)
-continue_cost = 8
-n = 16, p = 0.3435, c = 396, my/opp_pip = 0/8
-opp_bet = inf
-min_cost=16, max_cost=396, bet=8
-ROUND 8; max_bet = 18 (18.880117206819193)
-continue_cost = 25
-n = 49, p = 0.2955, c = 388, my/opp_pip = 0/25
-ROUND 9; max_bet = 3 (3.9444684281284594)
-continue_cost = 0
-n = 4, p = 0.499, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=3
-ROUND 9; max_bet = 12 (12.561042032189505)
+ROUND 1; max_bet = 5 (5.054737035290088)
 continue_cost = 3
-n = 13, p = 0.4995, c = 395, my/opp_pip = 5/8
+n = 7, p = 0.423, c = 398, my/opp_pip = 2/5
 opp_bet = inf
-min_cost=6, max_cost=395, bet=12
-ROUND 9; max_bet = 44 (44.96810271783306)
-continue_cost = 13
-n = 47, p = 0.519, c = 383, my/opp_pip = 17/30
-opp_bet = 108.85053705324331
-min_cost=26, max_cost=383, bet=44
-ROUND 9; max_bet = 113 (113.54626143090826)
-continue_cost = 36
-n = 158, p = 0.516, c = 339, my/opp_pip = 61/97
-opp_bet = 155.42565175518698
-min_cost=72, max_cost=339, bet=113
-ROUND 9; max_bet = 119 (119.44847414665283)
+min_cost=6, max_cost=398, bet=5
+ROUND 1; max_bet = 4 (4.350729145804735)
 continue_cost = 0
-n = 348, p = 0.4465, c = 226, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=226, bet=119
-ROUND 10; max_bet = 4 (4.366848545813582)
-continue_cost = 1
-n = 3, p = 0.595, c = 399, my/opp_pip = 1/2
-opp_bet = 7.905037381860592
-min_cost=3, max_cost=399, bet=4
-ROUND 10; max_bet = 14 (14.215412003738834)
-continue_cost = 2
-n = 12, p = 0.5505, c = 395, my/opp_pip = 0/2
-opp_bet = 37.769594948666075
-min_cost=4, max_cost=395, bet=14
-ROUND 11; max_bet = 8 (8.160175969660997)
-continue_cost = 3
-n = 7, p = 0.543, c = 398, my/opp_pip = 2/5
-opp_bet = 32.673110899691245
-min_cost=6, max_cost=398, bet=8
-ROUND 11; max_bet = 34 (34.19215806137862)
-continue_cost = 19
-n = 39, p = 0.4905, c = 390, my/opp_pip = 10/29
-opp_bet = inf
-min_cost=38, max_cost=390, bet=34
-ROUND 11; max_bet = 37 (37.47580876046584)
-continue_cost = 0
-n = 58, p = 0.423, c = 371, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=371, bet=37
-ROUND 11; max_bet = 47 (47.225033589268605)
-continue_cost = 0
-n = 132, p = 0.314, c = 334, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=334, bet=47
-ROUND 11; max_bet = 77 (77.01266185496775)
-continue_cost = 68
-n = 294, p = 0.307, c = 287, my/opp_pip = 47/115
-opp_bet = inf
-min_cost=136, max_cost=287, bet=77
-ROUND 11; max_bet = 64 (64.25228527575081)
-continue_cost = 0
-n = 362, p = 0.2625, c = 219, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=219, bet=64
-ROUND 11; max_bet = 42 (42.977741830087936)
-continue_cost = 0
-n = 490, p = 0.1855, c = 155, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=155, bet=42
-ROUND 11; max_bet = 41 (41.880097713847434)
-continue_cost = 59
-n = 633, p = 0.197, c = 113, my/opp_pip = 42/101
-ROUND 12; max_bet = 3 (3.4034358716421593)
-continue_cost = 1
-n = 3, p = 0.5335, c = 399, my/opp_pip = 1/2
-opp_bet = 19.37165461172439
-min_cost=3, max_cost=399, bet=3
-ROUND 12; max_bet = 12 (12.836909567524287)
-continue_cost = 5
-n = 13, p = 0.505, c = 396, my/opp_pip = 4/9
-opp_bet = 71.58051768912942
-min_cost=10, max_cost=396, bet=12
-ROUND 12; max_bet = 51 (51.42086494367362)
-continue_cost = 19
-n = 51, p = 0.5355, c = 384, my/opp_pip = 16/35
-opp_bet = 105.23449754319005
-min_cost=38, max_cost=384, bet=51
-ROUND 12; max_bet = 133 (133.54790214403204)
-continue_cost = 69
-n = 203, p = 0.5185, c = 333, my/opp_pip = 67/136
-opp_bet = 156.13304690867025
-min_cost=138, max_cost=333, bet=133
-ROUND 12; max_bet = 242 (242.81140541169466)
-continue_cost = 90
-n = 362, p = 0.745, c = 264, my/opp_pip = 0/90
-opp_bet = 65.4974887614096
-min_cost=180, max_cost=264, bet=180
-ROUND 12; max_bet = 83 (83.74868558771661)
-continue_cost = 54
-n = 686, p = 0.724, c = 84, my/opp_pip = 0/54
-opp_bet = 21.38386105138884
-min_cost=84, max_cost=84, bet=83
-ROUND 12; max_bet = 30 (30.0)
-continue_cost = 17
-n = 757, p = 0.9315, c = 30, my/opp_pip = 0/17
-opp_bet = 3.389182576487835
-min_cost=30, max_cost=30, bet=30
-ROUND 13; max_bet = 3 (3.7083582158063564)
-continue_cost = 0
-n = 4, p = 0.4835, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=3
-ROUND 13; max_bet = 4 (4.473796399443813)
-continue_cost = 0
-n = 10, p = 0.313, c = 395, my/opp_pip = 0/0
+n = 10, p = 0.307, c = 395, my/opp_pip = 0/0
 opp_bet = inf
 min_cost=2, max_cost=395, bet=4
-ROUND 13; max_bet = 13 (13.004097943361558)
-continue_cost = 11
-n = 29, p = 0.321, c = 391, my/opp_pip = 4/15
-opp_bet = inf
-min_cost=22, max_cost=391, bet=13
-ROUND 13; max_bet = 8 (8.760561658574204)
-continue_cost = 0
-n = 40, p = 0.189, c = 380, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=380, bet=8
-ROUND 13; max_bet = 15 (15.653104196311688)
-continue_cost = 26
-n = 82, p = 0.1775, c = 372, my/opp_pip = 8/34
-ROUND 14; max_bet = 4 (4.403069870176125)
-continue_cost = 1
-n = 3, p = 0.597, c = 399, my/opp_pip = 1/2
-opp_bet = 7.723811488426817
-min_cost=3, max_cost=399, bet=4
-ROUND 14; max_bet = 12 (12.928220345618115)
-continue_cost = 2
-n = 12, p = 0.5265, c = 395, my/opp_pip = 0/2
-opp_bet = 49.58401045117578
-min_cost=4, max_cost=395, bet=12
-ROUND 15; max_bet = 2 (2.3859380768064966)
-continue_cost = 0
-n = 4, p = 0.3755, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=2
-ROUND 15; max_bet = 5 (5.35170872314734)
-continue_cost = 2
-n = 10, p = 0.353, c = 396, my/opp_pip = 4/6
-opp_bet = inf
-min_cost=4, max_cost=396, bet=5
-ROUND 15; max_bet = 15 (15.864508798168913)
-continue_cost = 8
-n = 26, p = 0.3915, c = 391, my/opp_pip = 9/17
-opp_bet = inf
-min_cost=16, max_cost=391, bet=15
-ROUND 15; max_bet = 7 (7.884012217066072)
-continue_cost = 0
-n = 34, p = 0.1965, c = 383, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=383, bet=7
-ROUND 15; max_bet = 8 (8.726770684524467)
-continue_cost = 0
-n = 48, p = 0.1635, c = 376, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=376, bet=8
-ROUND 15; max_bet = 7 (7.551259970297053)
-continue_cost = 0
-n = 64, p = 0.1145, c = 368, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=368, bet=7
-ROUND 16; max_bet = 2 (2.9598659372840075)
-continue_cost = 1
-n = 3, p = 0.4985, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=2
-ROUND 16; max_bet = 8 (8.818405732996553)
+ROUND 1; max_bet = 10 (10.854182874597484)
 continue_cost = 5
-n = 9, p = 0.5005, c = 398, my/opp_pip = 2/7
-opp_bet = 67.11535001623213
-min_cost=10, max_cost=398, bet=8
-ROUND 16; max_bet = 43 (43.89942166033421)
-continue_cost = 12
-n = 26, p = 0.649, c = 393, my/opp_pip = 0/12
-opp_bet = 34.082629212571696
-min_cost=24, max_cost=393, bet=43
-ROUND 16; max_bet = 243 (243.0470163455209)
-continue_cost = 82
-n = 182, p = 0.739, c = 350, my/opp_pip = 0/82
-opp_bet = 66.17062907837152
-min_cost=164, max_cost=350, bet=164
-ROUND 16; max_bet = 181 (181.55896131973435)
-continue_cost = 106
-n = 534, p = 0.734, c = 186, my/opp_pip = 164/270
-opp_bet = 44.69834180702603
-min_cost=186, max_cost=186, bet=181
-ROUND 16; max_bet = 79 (79.56948786545661)
-continue_cost = 43
-n = 683, p = 0.6985, c = 80, my/opp_pip = 0/43
-opp_bet = 27.12950669467214
-min_cost=80, max_cost=80, bet=79
-ROUND 16; max_bet = 36 (36.923249756996164)
-continue_cost = 29
-n = 755, p = 0.6685, c = 37, my/opp_pip = 0/29
-opp_bet = nan
-min_cost=37, max_cost=37, bet=36
-ROUND 16; max_bet = 7 (7.929625905207066)
-continue_cost = 6
-n = 790, p = 0.507, c = 8, my/opp_pip = 0/6
-opp_bet = nan
-min_cost=8, max_cost=8, bet=7
-ROUND 17; max_bet = 4 (4.2125553374620495)
-continue_cost = 3
-n = 7, p = 0.379, c = 398, my/opp_pip = 2/5
+n = 23, p = 0.33, c = 391, my/opp_pip = 4/9
 opp_bet = inf
-min_cost=6, max_cost=398, bet=4
-ROUND 17; max_bet = 3 (3.803028253610762)
-continue_cost = 0
-n = 10, p = 0.279, c = 395, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=395, bet=3
-ROUND 17; max_bet = 7 (7.792552654782185)
-continue_cost = 4
-n = 20, p = 0.2875, c = 392, my/opp_pip = 3/7
-opp_bet = inf
-min_cost=8, max_cost=392, bet=7
-ROUND 17; max_bet = 7 (7.951174853286034)
-continue_cost = 0
-n = 24, p = 0.2565, c = 388, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=388, bet=7
-ROUND 17; max_bet = 14 (14.32037075806619)
-continue_cost = 11
-n = 49, p = 0.2405, c = 381, my/opp_pip = 7/18
-opp_bet = inf
-min_cost=22, max_cost=381, bet=14
-ROUND 17; max_bet = 13 (13.476229301142894)
-continue_cost = 0
-n = 60, p = 0.198, c = 370, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=370, bet=13
-ROUND 17; max_bet = 28 (28.756480477394007)
-continue_cost = 49
-n = 135, p = 0.2075, c = 357, my/opp_pip = 13/62
-ROUND 18; max_bet = 3 (3.4376594068939426)
-continue_cost = 1
-n = 3, p = 0.536, c = 399, my/opp_pip = 1/2
-opp_bet = 18.51390724069288
-min_cost=3, max_cost=399, bet=3
-ROUND 18; max_bet = 10 (10.472912628787753)
-continue_cost = 3
-n = 11, p = 0.4945, c = 396, my/opp_pip = 4/7
-opp_bet = inf
-min_cost=6, max_cost=396, bet=10
-ROUND 18; max_bet = 38 (38.929273644495424)
+min_cost=10, max_cost=391, bet=10
+ROUND 1; max_bet = 22 (22.689493146266386)
 continue_cost = 10
-n = 38, p = 0.531, c = 386, my/opp_pip = 14/24
-opp_bet = 91.41593475869033
-min_cost=20, max_cost=386, bet=38
-ROUND 18; max_bet = 85 (85.2554855164397)
-continue_cost = 66
-n = 170, p = 0.414, c = 348, my/opp_pip = 0/66
+n = 48, p = 0.341, c = 381, my/opp_pip = 14/24
 opp_bet = inf
-min_cost=132, max_cost=348, bet=85
-ROUND 18; max_bet = 118 (118.80175481282498)
-continue_cost = 20
-n = 256, p = 0.4585, c = 282, my/opp_pip = 0/20
-opp_bet = inf
-min_cost=40, max_cost=282, bet=118
-ROUND 18; max_bet = 128 (128.55837472642642)
-continue_cost = 98
-n = 570, p = 0.5055, c = 164, my/opp_pip = 118/216
-opp_bet = nan
-min_cost=164, max_cost=164, bet=128
-ROUND 18; max_bet = 59 (59.19262060096841)
-continue_cost = 6
-n = 674, p = 0.4845, c = 66, my/opp_pip = 0/6
-opp_bet = inf
-min_cost=12, max_cost=66, bet=59
-ROUND 18; max_bet = 6 (6.875399634210803)
-continue_cost = 7
-n = 793, p = 0.4595, c = 7, my/opp_pip = 59/66
-ROUND 19; max_bet = 8 (8.612637320544366)
-continue_cost = 3
-n = 7, p = 0.5565, c = 398, my/opp_pip = 2/5
-opp_bet = 27.633916681482507
-min_cost=6, max_cost=398, bet=8
-ROUND 19; max_bet = 40 (40.81865658080687)
-continue_cost = 17
-n = 37, p = 0.5495, c = 390, my/opp_pip = 10/27
-opp_bet = 85.56635211260073
-min_cost=34, max_cost=390, bet=40
-ROUND 19; max_bet = 128 (128.29258096879218)
-continue_cost = 73
-n = 173, p = 0.532, c = 350, my/opp_pip = 50/123
-opp_bet = 150.16783875105867
-min_cost=146, max_cost=350, bet=128
-ROUND 19; max_bet = 120 (120.77692305797859)
-continue_cost = 0
-n = 246, p = 0.474, c = 277, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=277, bet=120
-ROUND 19; max_bet = 118 (118.90517462231495)
-continue_cost = 120
-n = 606, p = 0.4725, c = 157, my/opp_pip = 120/240
-ROUND 20; max_bet = 4 (4.366848545813582)
-continue_cost = 1
-n = 3, p = 0.595, c = 399, my/opp_pip = 1/2
-opp_bet = 7.905037381860592
-min_cost=3, max_cost=399, bet=4
-ROUND 20; max_bet = 14 (14.079861950699637)
-continue_cost = 3
-n = 13, p = 0.5285, c = 395, my/opp_pip = 0/3
-opp_bet = 52.39417419848972
-min_cost=6, max_cost=395, bet=14
-ROUND 21; max_bet = 3 (3.549134131557537)
-continue_cost = 0
-n = 4, p = 0.4725, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=3
-ROUND 21; max_bet = 4 (4.673028619245429)
-continue_cost = 0
-n = 10, p = 0.3225, c = 395, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=395, bet=4
-ROUND 21; max_bet = 4 (4.946447225902261)
-continue_cost = 0
-n = 18, p = 0.2205, c = 391, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=391, bet=4
-ROUND 21; max_bet = 6 (6.162925423727302)
-continue_cost = 0
-n = 26, p = 0.198, c = 387, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=387, bet=6
-ROUND 21; max_bet = 13 (13.002301485662144)
+min_cost=20, max_cost=381, bet=22
+ROUND 1; max_bet = 42 (42.16552518521382)
 continue_cost = 23
-n = 61, p = 0.1895, c = 381, my/opp_pip = 6/29
-ROUND 22; max_bet = 4 (4.031419451889008)
-continue_cost = 1
-n = 3, p = 0.5755, c = 399, my/opp_pip = 1/2
-opp_bet = 10.068368662594846
-min_cost=3, max_cost=399, bet=4
-ROUND 22; max_bet = 16 (16.791034618094955)
-continue_cost = 4
-n = 14, p = 0.555, c = 395, my/opp_pip = 5/9
-opp_bet = 42.75945304257857
-min_cost=8, max_cost=395, bet=16
-ROUND 22; max_bet = 67 (67.40261986815983)
-continue_cost = 23
-n = 65, p = 0.553, c = 379, my/opp_pip = 21/44
-opp_bet = 105.2623469391159
-min_cost=46, max_cost=379, bet=67
-ROUND 22; max_bet = 157 (157.89342122172928)
-continue_cost = 60
-n = 236, p = 0.556, c = 312, my/opp_pip = 88/148
-opp_bet = 138.8489631328882
-min_cost=120, max_cost=312, bet=157
-ROUND 22; max_bet = 84 (84.76377060020152)
-continue_cost = 83
-n = 573, p = 0.3385, c = 155, my/opp_pip = 0/83
+n = 105, p = 0.3275, c = 359, my/opp_pip = 36/59
 opp_bet = inf
-min_cost=155, max_cost=155, bet=84
-ROUND 22; max_bet = 61 (61.71242012666305)
-continue_cost = 56
-n = 712, p = 0.449, c = 72, my/opp_pip = 0/56
-opp_bet = inf
-min_cost=72, max_cost=72, bet=61
-ROUND 22; max_bet = 15 (15.494171953197602)
-continue_cost = 15
-n = 783, p = 0.469, c = 16, my/opp_pip = 0/15
-opp_bet = inf
-min_cost=16, max_cost=16, bet=15
-ROUND 22; max_bet = 0 (0.9916893717975428)
+min_cost=46, max_cost=359, bet=42
+ROUND 1; max_bet = 28 (28.428292141067175)
 continue_cost = 0
-n = 798, p = 0.4175, c = 1, my/opp_pip = 0/0
+n = 128, p = 0.215, c = 336, my/opp_pip = 0/0
 opp_bet = inf
-min_cost=1, max_cost=1, bet=0
-ROUND 22; max_bet = 0 (0.9873822894513414)
-continue_cost = 0
-n = 798, p = 0.3955, c = 1, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=1, max_cost=1, bet=0
-ROUND 22; max_bet = 0 (0.8947707084512041)
-continue_cost = 0
-n = 798, p = 0.252, c = 1, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=1, max_cost=1, bet=0
-ROUND 23; max_bet = 2 (2.7335652148370855)
-continue_cost = 0
-n = 4, p = 0.408, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=2
-ROUND 23; max_bet = 6 (6.475667255278893)
-continue_cost = 2
-n = 10, p = 0.398, c = 396, my/opp_pip = 4/6
-opp_bet = inf
-min_cost=4, max_cost=396, bet=6
-ROUND 23; max_bet = 17 (17.001150788261725)
-continue_cost = 6
-n = 26, p = 0.4085, c = 390, my/opp_pip = 10/16
-opp_bet = inf
-min_cost=12, max_cost=390, bet=17
-ROUND 23; max_bet = 41 (41.36928617178211)
-continue_cost = 16
-n = 70, p = 0.406, c = 373, my/opp_pip = 27/43
-opp_bet = inf
-min_cost=32, max_cost=373, bet=41
-ROUND 23; max_bet = 81 (81.28664529885094)
-continue_cost = 31
-n = 167, p = 0.408, c = 332, my/opp_pip = 68/99
-opp_bet = inf
-min_cost=62, max_cost=332, bet=81
-ROUND 23; max_bet = 80 (80.28921206437786)
-continue_cost = 0
-n = 298, p = 0.33, c = 251, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=251, bet=80
-ROUND 23; max_bet = 86 (86.18829440830653)
-continue_cost = 88
-n = 546, p = 0.3285, c = 171, my/opp_pip = 80/168
-ROUND 24; max_bet = 1 (1.9506532381603279)
-continue_cost = 1
-n = 3, p = 0.3955, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=1
-ROUND 24; max_bet = 4 (4.302284489699844)
-continue_cost = 3
-n = 7, p = 0.384, c = 398, my/opp_pip = 2/5
-opp_bet = inf
-min_cost=6, max_cost=398, bet=4
-ROUND 24; max_bet = 5 (5.332183179141111)
-continue_cost = 6
-n = 16, p = 0.255, c = 395, my/opp_pip = 0/6
-ROUND 25; max_bet = 5 (5.348487920762807)
-continue_cost = 0
-n = 4, p = 0.575, c = 398, my/opp_pip = 2/2
-opp_bet = 10.135279494148858
-min_cost=2, max_cost=398, bet=5
-ROUND 25; max_bet = 12 (12.997159589995249)
-continue_cost = 0
-n = 14, p = 0.49, c = 393, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=393, bet=12
-ROUND 25; max_bet = 24 (24.70070309063277)
-continue_cost = 0
-n = 38, p = 0.4135, c = 381, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=381, bet=24
-ROUND 25; max_bet = 58 (58.00419702766328)
-continue_cost = 0
-n = 86, p = 0.451, c = 357, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=357, bet=58
-ROUND 26; max_bet = 1 (1.882424913336763)
-continue_cost = 1
-n = 3, p = 0.387, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=1
-ROUND 26; max_bet = 4 (4.347689739675104)
-continue_cost = 3
-n = 7, p = 0.3865, c = 398, my/opp_pip = 2/5
-opp_bet = inf
-min_cost=6, max_cost=398, bet=4
-ROUND 26; max_bet = 16 (16.149360704401715)
-continue_cost = 6
-n = 16, p = 0.5125, c = 395, my/opp_pip = 0/6
-opp_bet = 73.00802571506279
-min_cost=12, max_cost=395, bet=16
-ROUND 26; max_bet = 64 (64.86185874995192)
-continue_cost = 28
-n = 70, p = 0.5255, c = 379, my/opp_pip = 0/28
-opp_bet = 126.34589263037529
-min_cost=56, max_cost=379, bet=64
-ROUND 26; max_bet = 111 (111.39038764702343)
-continue_cost = 37
-n = 207, p = 0.4635, c = 315, my/opp_pip = 64/101
-opp_bet = inf
-min_cost=74, max_cost=315, bet=111
-ROUND 26; max_bet = 102 (102.53379593161195)
-continue_cost = 74
-n = 466, p = 0.37, c = 204, my/opp_pip = 0/74
-opp_bet = inf
-min_cost=148, max_cost=204, bet=102
-ROUND 26; max_bet = 77 (77.10400876095758)
-continue_cost = 69
-n = 609, p = 0.341, c = 130, my/opp_pip = 0/69
-opp_bet = inf
-min_cost=130, max_cost=130, bet=77
-ROUND 26; max_bet = 44 (44.675273875090035)
-continue_cost = 2
-n = 680, p = 0.3455, c = 61, my/opp_pip = 0/2
-opp_bet = inf
-min_cost=4, max_cost=61, bet=44
-ROUND 26; max_bet = 8 (8.605887878735723)
-continue_cost = 2
-n = 768, p = 0.1555, c = 17, my/opp_pip = 0/2
-opp_bet = inf
-min_cost=4, max_cost=17, bet=8
-ROUND 26; max_bet = 5 (5.442313619538298)
-continue_cost = 6
-n = 788, p = 0.1715, c = 9, my/opp_pip = 8/14
-ROUND 27; max_bet = 5 (5.447346371419712)
-continue_cost = 0
-n = 4, p = 0.5795, c = 398, my/opp_pip = 2/2
-opp_bet = 9.55655926227989
-min_cost=2, max_cost=398, bet=5
-ROUND 27; max_bet = 15 (15.150631763629576)
-continue_cost = 0
-n = 14, p = 0.529, c = 393, my/opp_pip = 0/0
-opp_bet = 48.17136849583218
-min_cost=2, max_cost=393, bet=15
-ROUND 27; max_bet = 71 (71.96846541346281)
+min_cost=2, max_cost=336, bet=28
+ROUND 1; max_bet = 47 (47.341634615044086)
 continue_cost = 32
-n = 76, p = 0.5355, c = 378, my/opp_pip = 15/47
-opp_bet = 124.44500910176076
-min_cost=64, max_cost=378, bet=71
-ROUND 27; max_bet = 143 (143.2563131081586)
-continue_cost = 79
-n = 265, p = 0.5025, c = 307, my/opp_pip = 86/165
-opp_bet = 155.73800200293326
-min_cost=158, max_cost=307, bet=143
-ROUND 27; max_bet = 179 (179.58086603742163)
+n = 216, p = 0.239, c = 308, my/opp_pip = 28/60
+opp_bet = inf
+min_cost=64, max_cost=308, bet=47
+ROUND 1; max_bet = 69 (69.90911189662262)
 continue_cost = 0
-n = 344, p = 0.6275, c = 228, my/opp_pip = 0/0
-opp_bet = 108.91137442120797
-min_cost=2, max_cost=228, bet=108
-ROUND 27; max_bet = 113 (113.94949684276837)
-continue_cost = 108
-n = 668, p = 0.6135, c = 120, my/opp_pip = 108/216
-opp_bet = nan
-min_cost=120, max_cost=120, bet=113
-ROUND 27; max_bet = 11 (11.922527010312132)
+n = 248, p = 0.313, c = 276, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=276, bet=69
+ROUND 1; max_bet = 83 (83.41612623838903)
+continue_cost = 72
+n = 458, p = 0.3065, c = 207, my/opp_pip = 69/141
+opp_bet = inf
+min_cost=144, max_cost=207, bet=83
+ROUND 1; max_bet = 21 (21.251174746320103)
 continue_cost = 0
-n = 776, p = 0.5465, c = 12, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=2, max_cost=12, bet=2
-ROUND 27; max_bet = 9 (9.980564053689264)
-continue_cost = 4
-n = 784, p = 0.588, c = 10, my/opp_pip = 2/6
-opp_bet = nan
-min_cost=8, max_cost=10, bet=8
-ROUND 27; max_bet = 1 (1.9980483097910744)
-continue_cost = 0
-n = 796, p = 0.5365, c = 2, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=2, max_cost=2, bet=1
-ROUND 27; max_bet = 1 (1.996803863824639)
-continue_cost = 2
-n = 798, p = 0.518, c = 2, my/opp_pip = 0/2
-ROUND 28; max_bet = 2 (2.657541321445308)
+n = 530, p = 0.097, c = 135, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=135, bet=21
+ROUND 1; max_bet = 16 (16.9871311028119)
+continue_cost = 34
+n = 606, p = 0.0805, c = 114, my/opp_pip = 21/55
+ROUND 2; max_bet = 4 (4.07270618097715)
 continue_cost = 1
-n = 3, p = 0.4715, c = 399, my/opp_pip = 1/2
+n = 3, p = 0.578, c = 399, my/opp_pip = 1/2
+opp_bet = 9.7437292430237
+min_cost=3, max_cost=399, bet=4
+ROUND 2; max_bet = 18 (18.586153444300862)
+continue_cost = 4
+n = 14, p = 0.5805, c = 395, my/opp_pip = 5/9
+opp_bet = 33.36567926298376
+min_cost=8, max_cost=395, bet=18
+ROUND 2; max_bet = 151 (151.48474508300166)
+continue_cost = 39
+n = 85, p = 0.7165, c = 377, my/opp_pip = 0/39
+opp_bet = 51.56061794349474
+min_cost=78, max_cost=377, bet=90
+ROUND 2; max_bet = 251 (251.9564863216154)
+continue_cost = 89
+n = 315, p = 0.7395, c = 287, my/opp_pip = 90/179
+opp_bet = 69.20538621302936
+min_cost=178, max_cost=287, bet=178
+ROUND 2; max_bet = 108 (108.44518808123208)
+continue_cost = 89
+n = 671, p = 0.7285, c = 109, my/opp_pip = 268/357
+opp_bet = 14.930122006712558
+min_cost=109, max_cost=109, bet=108
+ROUND 2; max_bet = 19 (19.997974083043587)
+continue_cost = 2
+n = 762, p = 0.715, c = 20, my/opp_pip = 0/2
+opp_bet = 14.025226467989516
+min_cost=4, max_cost=20, bet=16
+ROUND 2; max_bet = 3 (3.99999967305037)
+continue_cost = 2
+n = 794, p = 0.755, c = 4, my/opp_pip = 0/2
+opp_bet = nan
+min_cost=4, max_cost=4, bet=3
+ROUND 3; max_bet = 6 (6.017437689132578)
+continue_cost = 2
+n = 6, p = 0.5045, c = 398, my/opp_pip = 2/4
+opp_bet = 48.985246504799235
+min_cost=4, max_cost=398, bet=6
+ROUND 3; max_bet = 25 (25.247231903202646)
+continue_cost = 10
+n = 26, p = 0.509, c = 392, my/opp_pip = 8/18
+opp_bet = 94.05400328163819
+min_cost=20, max_cost=392, bet=25
+ROUND 3; max_bet = 91 (91.52215144491066)
+continue_cost = 43
+n = 109, p = 0.5245, c = 367, my/opp_pip = 33/76
+opp_bet = 144.13684557494233
+min_cost=86, max_cost=367, bet=91
+ROUND 3; max_bet = 160 (160.48207114628235)
+continue_cost = 108
+n = 356, p = 0.5125, c = 276, my/opp_pip = 124/232
+opp_bet = 128.0270608813645
+min_cost=216, max_cost=276, bet=160
+ROUND 3; max_bet = 82 (82.458471141278)
+continue_cost = 0
+n = 464, p = 0.3375, c = 168, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=168, bet=82
+ROUND 3; max_bet = 54 (54.52640496123568)
+continue_cost = 0
+n = 628, p = 0.322, c = 86, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=86, bet=54
+ROUND 3; max_bet = 22 (22.73022880260681)
+continue_cost = 0
+n = 736, p = 0.2805, c = 32, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=32, bet=22
+ROUND 4; max_bet = 2 (2.101623307774048)
+continue_cost = 1
+n = 3, p = 0.4135, c = 399, my/opp_pip = 1/2
 opp_bet = inf
 min_cost=3, max_cost=399, bet=2
-ROUND 28; max_bet = 7 (7.187328990410492)
-continue_cost = 4
-n = 8, p = 0.478, c = 398, my/opp_pip = 2/6
+ROUND 4; max_bet = 6 (6.4712400195620035)
+continue_cost = 5
+n = 9, p = 0.423, c = 398, my/opp_pip = 2/7
 opp_bet = inf
-min_cost=8, max_cost=398, bet=7
-ROUND 28; max_bet = 14 (14.089117940544156)
-continue_cost = 2
-n = 14, p = 0.5105, c = 394, my/opp_pip = 0/2
-opp_bet = 63.83194128333727
-min_cost=4, max_cost=394, bet=14
-ROUND 28; max_bet = 46 (46.8681413468795)
-continue_cost = 12
-n = 52, p = 0.5065, c = 380, my/opp_pip = 14/26
-opp_bet = 120.1781095611497
-min_cost=24, max_cost=380, bet=46
-ROUND 28; max_bet = 109 (109.27632940025526)
-continue_cost = 34
-n = 166, p = 0.4955, c = 334, my/opp_pip = 60/94
-opp_bet = inf
-min_cost=68, max_cost=334, bet=109
-ROUND 28; max_bet = 149 (149.75657379893343)
-continue_cost = 75
-n = 425, p = 0.508, c = 225, my/opp_pip = 169/244
-opp_bet = 119.20346060056264
-min_cost=150, max_cost=225, bet=149
-ROUND 28; max_bet = 117 (117.2393340507782)
-continue_cost = 41
-n = 541, p = 0.499, c = 150, my/opp_pip = 0/41
-opp_bet = inf
-min_cost=82, max_cost=150, bet=117
-ROUND 28; max_bet = 31 (31.00055431666609)
+min_cost=10, max_cost=398, bet=6
+ROUND 4; max_bet = 11 (11.8657547256405)
+continue_cost = 15
+n = 29, p = 0.301, c = 393, my/opp_pip = 0/15
+ROUND 5; max_bet = 11 (11.023211776768903)
+continue_cost = 3
+n = 7, p = 0.617, c = 398, my/opp_pip = 2/5
+opp_bet = 14.461234105572043
+min_cost=6, max_cost=398, bet=11
+ROUND 5; max_bet = 60 (60.53169134215091)
 continue_cost = 17
-n = 751, p = 0.4695, c = 33, my/opp_pip = 0/17
+n = 43, p = 0.6175, c = 387, my/opp_pip = 13/30
+opp_bet = 58.49869390260053
+min_cost=34, max_cost=387, bet=60
+ROUND 5; max_bet = 188 (188.01482485963484)
+continue_cost = 71
+n = 217, p = 0.627, c = 327, my/opp_pip = 73/144
+opp_bet = 109.39245074851996
+min_cost=142, max_cost=327, bet=180
+ROUND 5; max_bet = 146 (146.86010090641832)
+continue_cost = 0
+n = 506, p = 0.8235, c = 147, my/opp_pip = 0/0
+opp_bet = 41.61769563889735
+min_cost=2, max_cost=147, bet=41
+ROUND 5; max_bet = 105 (105.99920222628455)
+continue_cost = 41
+n = 629, p = 0.859, c = 106, my/opp_pip = 41/82
+opp_bet = 21.554229267297263
+min_cost=82, max_cost=106, bet=82
+ROUND 5; max_bet = 23 (23.999999983367644)
+continue_cost = 0
+n = 752, p = 0.8585, c = 24, my/opp_pip = 0/0
+opp_bet = 10.497155392066812
+min_cost=2, max_cost=24, bet=10
+ROUND 5; max_bet = 13 (13.99999999889272)
+continue_cost = 10
+n = 782, p = 0.852, c = 14, my/opp_pip = 10/20
+opp_bet = 2.405953354662237
+min_cost=14, max_cost=14, bet=13
+ROUND 5; max_bet = 3 (3.999999999999249)
+continue_cost = 0
+n = 792, p = 0.847, c = 4, my/opp_pip = 0/0
+opp_bet = 2.463408557213536
+min_cost=2, max_cost=4, bet=2
+ROUND 5; max_bet = 1 (1.999999999767087)
+continue_cost = 0
+n = 796, p = 0.7925, c = 2, my/opp_pip = 0/0
+opp_bet = 1.583329482899415
+min_cost=2, max_cost=2, bet=1
+ROUND 6; max_bet = 3 (3.104855942944596)
+continue_cost = 1
+n = 3, p = 0.5105, c = 399, my/opp_pip = 1/2
+opp_bet = 30.46422231729457
+min_cost=3, max_cost=399, bet=3
+ROUND 6; max_bet = 11 (11.62723581358)
+continue_cost = 3
+n = 11, p = 0.521, c = 396, my/opp_pip = 4/7
+opp_bet = 52.854335284568954
+min_cost=6, max_cost=396, bet=11
+ROUND 6; max_bet = 39 (39.56949056038917)
+continue_cost = 13
+n = 43, p = 0.506, c = 385, my/opp_pip = 15/28
+opp_bet = 114.72646837004132
+min_cost=26, max_cost=385, bet=39
+ROUND 6; max_bet = 100 (100.27683962937033)
+continue_cost = 39
+n = 147, p = 0.4915, c = 346, my/opp_pip = 54/93
 opp_bet = inf
-min_cost=33, max_cost=33, bet=31
-ROUND 29; max_bet = 5 (5.403152376193589)
-continue_cost = 0
-n = 4, p = 0.5775, c = 398, my/opp_pip = 2/2
-opp_bet = 9.807365095610836
-min_cost=2, max_cost=398, bet=5
-ROUND 29; max_bet = 14 (14.367382664519084)
-continue_cost = 0
-n = 14, p = 0.5155, c = 393, my/opp_pip = 0/0
-opp_bet = 56.35483244181007
-min_cost=2, max_cost=393, bet=14
-ROUND 29; max_bet = 73 (73.57768531613499)
-continue_cost = 33
-n = 75, p = 0.5445, c = 379, my/opp_pip = 14/47
-opp_bet = 119.1713357361593
-min_cost=66, max_cost=379, bet=73
-ROUND 29; max_bet = 160 (160.96289689160838)
-continue_cost = 84
-n = 272, p = 0.54, c = 306, my/opp_pip = 87/171
-opp_bet = 140.35692752506327
-min_cost=168, max_cost=306, bet=160
-ROUND 29; max_bet = 217 (217.22640232282825)
-continue_cost = 0
-n = 356, p = 0.8005, c = 222, my/opp_pip = 0/0
-opp_bet = 50.73132604421352
-min_cost=2, max_cost=222, bet=50
-ROUND 29; max_bet = 171 (171.27624935457524)
-continue_cost = 59
-n = 515, p = 0.798, c = 172, my/opp_pip = 50/109
-opp_bet = 42.5224298153072
-min_cost=118, max_cost=172, bet=118
-ROUND 29; max_bet = 53 (53.929147099036726)
-continue_cost = 0
-n = 692, p = 0.7165, c = 54, my/opp_pip = 0/0
-opp_bet = 35.2389021423143
-min_cost=2, max_cost=54, bet=35
-ROUND 29; max_bet = 18 (18.998011376901648)
-continue_cost = 0
-n = 762, p = 0.7115, c = 19, my/opp_pip = 0/0
-opp_bet = 14.821333834758423
-min_cost=2, max_cost=19, bet=14
-ROUND 29; max_bet = 4 (4.999992897959779)
-continue_cost = 0
-n = 790, p = 0.7265, c = 5, my/opp_pip = 0/0
+min_cost=78, max_cost=346, bet=100
+ROUND 6; max_bet = 145 (145.73658323354294)
+continue_cost = 78
+n = 386, p = 0.4875, c = 246, my/opp_pip = 154/232
+opp_bet = inf
+min_cost=156, max_cost=246, bet=145
+ROUND 6; max_bet = 114 (114.53301232642139)
+continue_cost = 21
+n = 485, p = 0.4575, c = 168, my/opp_pip = 0/21
+opp_bet = inf
+min_cost=42, max_cost=168, bet=114
+ROUND 6; max_bet = 53 (53.53802974301852)
+continue_cost = 9
+n = 701, p = 0.6435, c = 54, my/opp_pip = 0/9
+opp_bet = 35.804826813752086
+min_cost=18, max_cost=54, bet=44
+ROUND 6; max_bet = 9 (9.933383831172014)
+continue_cost = 3
+n = 783, p = 0.534, c = 10, my/opp_pip = 0/3
 opp_bet = nan
-min_cost=2, max_cost=5, bet=2
-ROUND 29; max_bet = 2 (2.9999974462056453)
+min_cost=6, max_cost=10, bet=6
+ROUND 6; max_bet = 3 (3.996379311403077)
+continue_cost = 3
+n = 795, p = 0.5695, c = 4, my/opp_pip = 6/9
+opp_bet = nan
+min_cost=4, max_cost=4, bet=3
+ROUND 6; max_bet = 0 (0.9999999858451637)
+continue_cost = 1
+n = 799, p = 0.73, c = 1, my/opp_pip = 0/1
+ROUND 7; max_bet = 4 (4.237481623676331)
+continue_cost = 0
+n = 4, p = 0.517, c = 398, my/opp_pip = 2/2
+opp_bet = 26.655432754498474
+min_cost=2, max_cost=398, bet=4
+ROUND 7; max_bet = 20 (20.725810240421367)
+continue_cost = 0
+n = 12, p = 0.643, c = 394, my/opp_pip = 0/0
+opp_bet = 13.464687464811279
+min_cost=2, max_cost=394, bet=13
+ROUND 7; max_bet = 37 (37.00502453788749)
+continue_cost = 0
+n = 38, p = 0.518, c = 381, my/opp_pip = 0/0
+opp_bet = 90.0264291099252
+min_cost=2, max_cost=381, bet=37
+ROUND 8; max_bet = 4 (4.0977117633035505)
+continue_cost = 1
+n = 3, p = 0.5795, c = 399, my/opp_pip = 1/2
+opp_bet = 9.55655926227989
+min_cost=3, max_cost=399, bet=4
+ROUND 8; max_bet = 20 (20.4114966016553)
+continue_cost = 3
+n = 13, p = 0.621, c = 395, my/opp_pip = 5/8
+opp_bet = 20.989642025876638
+min_cost=6, max_cost=395, bet=20
+ROUND 8; max_bet = 73 (73.82737255805472)
+continue_cost = 17
+n = 67, p = 0.5715, c = 375, my/opp_pip = 25/42
+opp_bet = 93.17243653567897
+min_cost=34, max_cost=375, bet=73
+ROUND 8; max_bet = 168 (168.66058668875425)
+continue_cost = 56
+n = 252, p = 0.574, c = 302, my/opp_pip = 98/154
+opp_bet = 130.9523689542672
+min_cost=112, max_cost=302, bet=168
+ROUND 8; max_bet = 121 (121.0443702182206)
+continue_cost = 112
+n = 644, p = 0.5705, c = 134, my/opp_pip = 266/378
+opp_bet = nan
+min_cost=134, max_cost=134, bet=121
+ROUND 8; max_bet = 21 (21.997240886852335)
+continue_cost = 12
+n = 768, p = 0.715, c = 22, my/opp_pip = 0/12
+opp_bet = nan
+min_cost=22, max_cost=22, bet=21
+ROUND 8; max_bet = 9 (9.995619275391476)
+continue_cost = 7
+n = 787, p = 0.6385, c = 10, my/opp_pip = 0/7
+opp_bet = nan
+min_cost=10, max_cost=10, bet=9
+ROUND 8; max_bet = 2 (2.9574725636807133)
 continue_cost = 2
-n = 796, p = 0.7145, c = 3, my/opp_pip = 2/4
-opp_bet = nan
+n = 796, p = 0.4325, c = 3, my/opp_pip = 0/2
+opp_bet = inf
 min_cost=3, max_cost=3, bet=2
+ROUND 9; max_bet = 6 (6.705172493342388)
+continue_cost = 0
+n = 4, p = 0.6295, c = 398, my/opp_pip = 2/2
+opp_bet = 5.471074529292227
+min_cost=2, max_cost=398, bet=5
+ROUND 9; max_bet = 57 (57.210035745749906)
+continue_cost = 0
+n = 14, p = 0.818, c = 393, my/opp_pip = 0/0
+opp_bet = 3.868795880115051
+min_cost=2, max_cost=393, bet=3
+ROUND 9; max_bet = 131 (131.0631984630976)
+continue_cost = 13
+n = 33, p = 0.8345, c = 390, my/opp_pip = 3/16
+opp_bet = 10.256993292022106
+min_cost=26, max_cost=390, bet=26
+ROUND 9; max_bet = 258 (258.0954329742792)
+continue_cost = 40
+n = 112, p = 0.8215, c = 364, my/opp_pip = 29/69
+opp_bet = 29.899243016488715
+min_cost=80, max_cost=364, bet=80
+ROUND 9; max_bet = 275 (275.41308503039915)
+continue_cost = 79
+n = 311, p = 0.8255, c = 284, my/opp_pip = 109/188
+opp_bet = 43.78202288117347
+min_cost=158, max_cost=284, bet=158
+ROUND 9; max_bet = 125 (125.90988846914995)
+continue_cost = 0
+n = 548, p = 0.812, c = 126, my/opp_pip = 0/0
+opp_bet = 41.72232999271797
+min_cost=2, max_cost=126, bet=41
+ROUND 9; max_bet = 84 (84.98466639728662)
+continue_cost = 54
+n = 684, p = 0.7965, c = 85, my/opp_pip = 41/95
+opp_bet = 17.43019620628712
+min_cost=85, max_cost=85, bet=84
+ROUND 9; max_bet = 30 (30.999998105465146)
+continue_cost = 0
+n = 738, p = 0.838, c = 31, my/opp_pip = 0/0
+opp_bet = 14.396070920611479
+min_cost=2, max_cost=31, bet=14
+ROUND 9; max_bet = 16 (16.999999961649724)
+continue_cost = 15
+n = 781, p = 0.838, c = 17, my/opp_pip = 14/29
+opp_bet = 1.3718369101910888
+min_cost=17, max_cost=17, bet=16
+ROUND 10; max_bet = 2 (2.0082897318361006)
+continue_cost = 1
+n = 3, p = 0.4025, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 10; max_bet = 4 (4.248275498264377)
+continue_cost = 3
+n = 7, p = 0.381, c = 398, my/opp_pip = 2/5
+opp_bet = inf
+min_cost=6, max_cost=398, bet=4
+ROUND 10; max_bet = 7 (7.763255791866413)
+continue_cost = 5
+n = 15, p = 0.3475, c = 395, my/opp_pip = 0/5
+opp_bet = inf
+min_cost=10, max_cost=395, bet=7
+ROUND 10; max_bet = 10 (10.670507924743504)
+continue_cost = 7
+n = 27, p = 0.293, c = 390, my/opp_pip = 0/7
+opp_bet = inf
+min_cost=14, max_cost=390, bet=10
+ROUND 10; max_bet = 11 (11.848673280529454)
+continue_cost = 9
+n = 43, p = 0.228, c = 383, my/opp_pip = 0/9
+opp_bet = inf
+min_cost=18, max_cost=383, bet=11
+ROUND 10; max_bet = 16 (16.48029179457376)
+continue_cost = 13
+n = 65, p = 0.2195, c = 374, my/opp_pip = 0/13
+opp_bet = inf
+min_cost=26, max_cost=374, bet=16
+ROUND 10; max_bet = 13 (13.796227706791512)
+continue_cost = 14
+n = 92, p = 0.1465, c = 361, my/opp_pip = 0/14
+ROUND 11; max_bet = 7 (7.2704594110500125)
+continue_cost = 2
+n = 6, p = 0.552, c = 398, my/opp_pip = 2/4
+opp_bet = 24.688250950929564
+min_cost=4, max_cost=398, bet=7
+ROUND 11; max_bet = 26 (26.038252819397087)
+continue_cost = 7
+n = 25, p = 0.5265, c = 391, my/opp_pip = 9/16
+opp_bet = 77.63925219981078
+min_cost=14, max_cost=391, bet=26
+ROUND 11; max_bet = 87 (87.29956774948681)
+continue_cost = 29
+n = 99, p = 0.5325, c = 365, my/opp_pip = 35/64
+opp_bet = 133.21300882315376
+min_cost=58, max_cost=365, bet=87
+ROUND 11; max_bet = 161 (161.62509011186313)
+continue_cost = 67
+n = 311, p = 0.537, c = 278, my/opp_pip = 122/189
+opp_bet = 138.41414959698065
+min_cost=134, max_cost=278, bet=161
+ROUND 11; max_bet = 72 (72.50628615882674)
+continue_cost = 0
+n = 566, p = 0.354, c = 117, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=117, bet=72
+ROUND 11; max_bet = 32 (32.436736977057805)
+continue_cost = 0
+n = 710, p = 0.3115, c = 45, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=45, bet=32
+ROUND 11; max_bet = 7 (7.522886331544258)
+continue_cost = 0
+n = 774, p = 0.174, c = 13, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=13, bet=7
+ROUND 11; max_bet = 4 (4.254471735953257)
+continue_cost = 6
+n = 794, p = 0.2015, c = 6, my/opp_pip = 7/13
+ROUND 12; max_bet = 3 (3.111050439149551)
+continue_cost = 1
+n = 3, p = 0.511, c = 399, my/opp_pip = 1/2
+opp_bet = 30.149691235251595
+min_cost=3, max_cost=399, bet=3
+ROUND 12; max_bet = 12 (12.235022706506982)
+continue_cost = 4
+n = 12, p = 0.5125, c = 396, my/opp_pip = 4/8
+opp_bet = 62.44523164465466
+min_cost=8, max_cost=396, bet=12
+ROUND 12; max_bet = 46 (46.13240812914546)
+continue_cost = 19
+n = 51, p = 0.5065, c = 384, my/opp_pip = 16/35
+opp_bet = 124.08780406925865
+min_cost=38, max_cost=384, bet=46
+ROUND 12; max_bet = 119 (119.20360993577626)
+continue_cost = 57
+n = 181, p = 0.5035, c = 338, my/opp_pip = 62/119
+opp_bet = 163.94535075079375
+min_cost=114, max_cost=338, bet=119
+ROUND 12; max_bet = 159 (159.77338325612618)
+continue_cost = 103
+n = 465, p = 0.5345, c = 219, my/opp_pip = 181/284
+opp_bet = 93.88483388094113
+min_cost=206, max_cost=219, bet=159
+ROUND 12; max_bet = 77 (77.31576467304836)
+continue_cost = 87
+n = 655, p = 0.367, c = 116, my/opp_pip = 0/87
+ROUND 13; max_bet = 5 (5.816436767277935)
+continue_cost = 0
+n = 4, p = 0.5955, c = 398, my/opp_pip = 2/2
+opp_bet = 7.859136703086409
+min_cost=2, max_cost=398, bet=5
+ROUND 13; max_bet = 46 (46.24663482367379)
+continue_cost = 0
+n = 14, p = 0.7815, c = 393, my/opp_pip = 0/0
+opp_bet = 5.208595840480904
+min_cost=2, max_cost=393, bet=5
+ROUND 13; max_bet = 116 (116.82092957698677)
+continue_cost = 0
+n = 24, p = 0.8565, c = 388, my/opp_pip = 0/0
+opp_bet = 4.595149840844342
+min_cost=2, max_cost=388, bet=4
+ROUND 13; max_bet = 81 (81.78052461846028)
+continue_cost = 0
+n = 32, p = 0.7495, c = 384, my/opp_pip = 0/0
+opp_bet = 14.350439497243707
+min_cost=2, max_cost=384, bet=14
+ROUND 13; max_bet = 163 (163.41720189724182)
+continue_cost = 0
+n = 60, p = 0.795, c = 370, my/opp_pip = 0/0
+opp_bet = 17.759111524048294
+min_cost=2, max_cost=370, bet=17
+ROUND 14; max_bet = 1 (1.8237664139044796)
+continue_cost = 1
+n = 3, p = 0.3795, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 14; max_bet = 4 (4.448876808709656)
+continue_cost = 3
+n = 7, p = 0.392, c = 398, my/opp_pip = 2/5
+opp_bet = inf
+min_cost=6, max_cost=398, bet=4
+ROUND 14; max_bet = 19 (19.563114614870244)
+continue_cost = 10
+n = 20, p = 0.507, c = 395, my/opp_pip = 0/10
+opp_bet = 88.31560634273163
+min_cost=20, max_cost=395, bet=19
+ROUND 14; max_bet = 30 (30.497097595434013)
+continue_cost = 9
+n = 39, p = 0.461, c = 385, my/opp_pip = 0/9
+opp_bet = inf
+min_cost=18, max_cost=385, bet=30
+ROUND 14; max_bet = 68 (68.91082951614578)
+continue_cost = 23
+n = 113, p = 0.4385, c = 355, my/opp_pip = 30/53
+opp_bet = inf
+min_cost=46, max_cost=355, bet=68
+ROUND 14; max_bet = 117 (117.50497520117517)
+continue_cost = 45
+n = 271, p = 0.442, c = 287, my/opp_pip = 98/143
+opp_bet = inf
+min_cost=90, max_cost=287, bet=117
+ROUND 14; max_bet = 114 (114.21251648680894)
+continue_cost = 72
+n = 532, p = 0.44, c = 170, my/opp_pip = 215/287
+opp_bet = inf
+min_cost=144, max_cost=170, bet=114
+ROUND 14; max_bet = 70 (70.0704855814852)
+continue_cost = 48
+n = 652, p = 0.3815, c = 98, my/opp_pip = 0/48
+opp_bet = inf
+min_cost=96, max_cost=98, bet=70
+ROUND 14; max_bet = 39 (39.291714008211855)
+continue_cost = 38
+n = 738, p = 0.3585, c = 50, my/opp_pip = 0/38
+opp_bet = inf
+min_cost=50, max_cost=50, bet=39
+ROUND 14; max_bet = 10 (10.581058153833384)
+continue_cost = 5
+n = 781, p = 0.3375, c = 12, my/opp_pip = 0/5
+opp_bet = inf
+min_cost=10, max_cost=12, bet=10
+ROUND 15; max_bet = 3 (3.999799335029934)
+continue_cost = 0
+n = 4, p = 0.5025, c = 398, my/opp_pip = 2/2
+opp_bet = 36.01236173595026
+min_cost=2, max_cost=398, bet=3
+ROUND 15; max_bet = 10 (10.534052988103156)
+continue_cost = 0
+n = 10, p = 0.5195, c = 395, my/opp_pip = 0/0
+opp_bet = 44.52758307363896
+min_cost=2, max_cost=395, bet=10
+ROUND 15; max_bet = 43 (43.72945441510052)
+continue_cost = 10
+n = 40, p = 0.5495, c = 385, my/opp_pip = 10/20
+opp_bet = 82.27634776818353
+min_cost=20, max_cost=385, bet=43
+ROUND 15; max_bet = 118 (118.87935543288194)
+continue_cost = 33
+n = 149, p = 0.5415, c = 342, my/opp_pip = 53/86
+opp_bet = 140.23735380139863
+min_cost=66, max_cost=342, bet=118
+ROUND 15; max_bet = 154 (154.47346380689615)
+continue_cost = 85
+n = 437, p = 0.5195, c = 224, my/opp_pip = 171/256
+opp_bet = 110.51856834895769
+min_cost=170, max_cost=224, bet=154
+ROUND 15; max_bet = 138 (138.99999360032152)
+continue_cost = 0
+n = 522, p = 0.9155, c = 139, my/opp_pip = 0/0
+opp_bet = 18.94556949698062
+min_cost=2, max_cost=139, bet=18
+ROUND 15; max_bet = 120 (120.99999999895243)
+continue_cost = 53
+n = 611, p = 0.934, c = 121, my/opp_pip = 18/71
+opp_bet = 10.56934657539854
+min_cost=106, max_cost=121, bet=106
+ROUND 15; max_bet = 15 (15.0)
+continue_cost = 0
+n = 770, p = 0.986, c = 15, my/opp_pip = 0/0
+opp_bet = 0.8198684242648623
+min_cost=2, max_cost=15, bet=2
+ROUND 15; max_bet = 13 (13.0)
+continue_cost = 4
+n = 778, p = 0.988, c = 13, my/opp_pip = 2/6
+opp_bet = 0.4762873554706606
+min_cost=8, max_cost=13, bet=8
+ROUND 15; max_bet = 5 (5.0)
+continue_cost = 4
+n = 794, p = 0.975, c = 5, my/opp_pip = 10/14
+opp_bet = 0.15749297882389793
+min_cost=5, max_cost=5, bet=5
+ROUND 16; max_bet = 3 (3.123477220216728)
+continue_cost = 1
+n = 3, p = 0.512, c = 399, my/opp_pip = 1/2
+opp_bet = 29.531650681734323
+min_cost=3, max_cost=399, bet=3
+ROUND 18; max_bet = 3 (3.019433127578054)
+continue_cost = 1
+n = 3, p = 0.5035, c = 399, my/opp_pip = 1/2
+opp_bet = 35.264762519642986
+min_cost=3, max_cost=399, bet=3
+ROUND 20; max_bet = 3 (3.571114197666134)
+continue_cost = 1
+n = 3, p = 0.5455, c = 399, my/opp_pip = 1/2
+opp_bet = 15.709354629254351
+min_cost=3, max_cost=399, bet=3
+ROUND 22; max_bet = 2 (2.52772472027533)
+continue_cost = 1
+n = 3, p = 0.459, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 22; max_bet = 1 (1.575545596426764)
+continue_cost = 0
+n = 4, p = 0.284, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 22; max_bet = 1 (1.047056059470151)
+continue_cost = 0
+n = 4, p = 0.2085, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 22; max_bet = 1 (1.6027424906235979)
+continue_cost = 0
+n = 4, p = 0.2875, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 22; max_bet = 1 (1.8429679732929571)
+continue_cost = 0
+n = 4, p = 0.317, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 22; max_bet = 0 (0.47909915499388944)
+continue_cost = 0
+n = 4, p = 0.1075, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 24; max_bet = 3 (3.658290048550157)
+continue_cost = 1
+n = 3, p = 0.5515, c = 399, my/opp_pip = 1/2
+opp_bet = 14.249959907072455
+min_cost=3, max_cost=399, bet=3
+ROUND 26; max_bet = 3 (3.643600470326078)
+continue_cost = 1
+n = 3, p = 0.5505, c = 399, my/opp_pip = 1/2
+opp_bet = 14.478718952433887
+min_cost=3, max_cost=399, bet=3
+ROUND 28; max_bet = 3 (3.717703741041362)
+continue_cost = 1
+n = 3, p = 0.5555, c = 399, my/opp_pip = 1/2
+opp_bet = 13.387318249725466
+min_cost=3, max_cost=399, bet=3
 ROUND 30; max_bet = 2 (2.799180514118632)
 continue_cost = 1
 n = 3, p = 0.4845, c = 399, my/opp_pip = 1/2
 opp_bet = inf
 min_cost=3, max_cost=399, bet=2
-ROUND 30; max_bet = 5 (5.437659986711765)
-continue_cost = 2
-n = 6, p = 0.479, c = 398, my/opp_pip = 2/4
-opp_bet = inf
-min_cost=4, max_cost=398, bet=5
-ROUND 30; max_bet = 15 (15.69771028809447)
-continue_cost = 4
-n = 18, p = 0.4765, c = 393, my/opp_pip = 7/11
-opp_bet = inf
-min_cost=8, max_cost=393, bet=15
-ROUND 30; max_bet = 37 (37.49279770747984)
-continue_cost = 18
-n = 62, p = 0.4075, c = 378, my/opp_pip = 0/18
-opp_bet = inf
-min_cost=36, max_cost=378, bet=37
-ROUND 30; max_bet = 45 (45.801100423307844)
-continue_cost = 26
-n = 144, p = 0.2905, c = 341, my/opp_pip = 0/26
-opp_bet = inf
-min_cost=52, max_cost=341, bet=45
-ROUND 30; max_bet = 68 (68.10397702553865)
-continue_cost = 27
-n = 197, p = 0.334, c = 315, my/opp_pip = 0/27
-opp_bet = inf
-min_cost=54, max_cost=315, bet=68
-ROUND 30; max_bet = 197 (197.43285138810435)
-continue_cost = 38
-n = 344, p = 0.648, c = 247, my/opp_pip = 0/38
-opp_bet = 99.83140776232827
-min_cost=76, max_cost=247, bet=137
-ROUND 31; max_bet = 5 (5.15685032985823)
+ROUND 30; max_bet = 4 (4.53477817138139)
 continue_cost = 0
-n = 4, p = 0.566, c = 398, my/opp_pip = 2/2
-opp_bet = 11.466227805156286
+n = 4, p = 0.534, c = 398, my/opp_pip = 0/0
+opp_bet = 19.195665754902354
+min_cost=2, max_cost=398, bet=4
+ROUND 32; max_bet = 1 (1.9344285256833587)
+continue_cost = 1
+n = 3, p = 0.3935, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 32; max_bet = 1 (1.5409637239743006)
+continue_cost = 0
+n = 4, p = 0.2795, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 32; max_bet = 1 (1.1373523615982322)
+continue_cost = 0
+n = 4, p = 0.2225, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 32; max_bet = 0 (0.4127252777843182)
+continue_cost = 0
+n = 4, p = 0.094, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 34; max_bet = 1 (1.71426584657263)
+continue_cost = 1
+n = 3, p = 0.365, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 34; max_bet = 6 (6.267718234994788)
+continue_cost = 0
+n = 4, p = 0.6135, c = 398, my/opp_pip = 0/0
+opp_bet = 6.439155968383668
+min_cost=2, max_cost=398, bet=6
+ROUND 36; max_bet = 2 (2.727485391848461)
+continue_cost = 1
+n = 3, p = 0.478, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 36; max_bet = 6 (6.41400333561495)
+continue_cost = 0
+n = 4, p = 0.619, c = 398, my/opp_pip = 0/0
+opp_bet = 6.080350174379845
+min_cost=2, max_cost=398, bet=6
+ROUND 38; max_bet = 3 (3.7327232069087586)
+continue_cost = 1
+n = 3, p = 0.5565, c = 399, my/opp_pip = 1/2
+opp_bet = 13.18399820950763
+min_cost=3, max_cost=399, bet=3
+ROUND 40; max_bet = 3 (3.747809982800618)
+continue_cost = 1
+n = 3, p = 0.5575, c = 399, my/opp_pip = 1/2
+opp_bet = 12.985327158838235
+min_cost=3, max_cost=399, bet=3
+ROUND 42; max_bet = 2 (2.5480935649903813)
+continue_cost = 1
+n = 3, p = 0.461, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 42; max_bet = 2 (2.2713745180378737)
+continue_cost = 0
+n = 4, p = 0.364, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=2
+ROUND 44; max_bet = 2 (2.45265547206958)
+continue_cost = 1
+n = 3, p = 0.4515, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 44; max_bet = 2 (2.4577447089201883)
+continue_cost = 0
+n = 4, p = 0.3825, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=2
+ROUND 46; max_bet = 4 (4.542131610289516)
+continue_cost = 1
+n = 3, p = 0.6045, c = 399, my/opp_pip = 1/2
+opp_bet = 7.0967619810508396
+min_cost=3, max_cost=399, bet=4
+ROUND 48; max_bet = 2 (2.716612414533131)
+continue_cost = 1
+n = 3, p = 0.477, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 48; max_bet = 2 (2.711083587214034)
+continue_cost = 0
+n = 4, p = 0.406, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=2
+ROUND 50; max_bet = 2 (2.5686130747687344)
+continue_cost = 1
+n = 3, p = 0.463, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 50; max_bet = 2 (2.442221958516484)
+continue_cost = 0
+n = 4, p = 0.381, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=2
+ROUND 52; max_bet = 1 (1.9183098105561385)
+continue_cost = 1
+n = 3, p = 0.3915, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 52; max_bet = 1 (1.3528275391212787)
+continue_cost = 0
+n = 4, p = 0.254, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 52; max_bet = 0 (0.878620942356406)
+continue_cost = 0
+n = 4, p = 0.181, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 52; max_bet = 0 (0.19842986250756667)
+continue_cost = 0
+n = 4, p = 0.0475, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 54; max_bet = 5 (5.035186771579504)
+continue_cost = 1
+n = 3, p = 0.629, c = 399, my/opp_pip = 1/2
+opp_bet = 5.498067731142853
+min_cost=3, max_cost=399, bet=5
+ROUND 56; max_bet = 3 (3.1800289252647076)
+continue_cost = 1
+n = 3, p = 0.5165, c = 399, my/opp_pip = 1/2
+opp_bet = 26.92744900821616
+min_cost=3, max_cost=399, bet=3
+ROUND 58; max_bet = 3 (3.7027511357543403)
+continue_cost = 1
+n = 3, p = 0.5545, c = 399, my/opp_pip = 1/2
+opp_bet = 13.595427462577943
+min_cost=3, max_cost=399, bet=3
+ROUND 60; max_bet = 1 (1.588553988614649)
+continue_cost = 1
+n = 3, p = 0.3475, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 60; max_bet = 11 (11.731935416940075)
+continue_cost = 0
+n = 4, p = 0.7495, c = 398, my/opp_pip = 0/0
+opp_bet = 1.9782901806957693
+min_cost=2, max_cost=398, bet=2
+ROUND 62; max_bet = 2 (2.6896097247422404)
+continue_cost = 1
+n = 3, p = 0.4745, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 62; max_bet = 2 (2.3758101363018227)
+continue_cost = 0
+n = 4, p = 0.3745, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=2
+ROUND 64; max_bet = 1 (1.9344285256833587)
+continue_cost = 1
+n = 3, p = 0.3935, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 64; max_bet = 6 (6.41400333561495)
+continue_cost = 0
+n = 4, p = 0.619, c = 398, my/opp_pip = 0/0
+opp_bet = 6.080350174379845
+min_cost=2, max_cost=398, bet=6
+ROUND 66; max_bet = 4 (4.971376717691669)
+continue_cost = 1
+n = 3, p = 0.626, c = 399, my/opp_pip = 1/2
+opp_bet = 5.664065411946026
+min_cost=3, max_cost=399, bet=4
+ROUND 68; max_bet = 4 (4.495200841224516)
+continue_cost = 1
+n = 3, p = 0.602, c = 399, my/opp_pip = 1/2
+opp_bet = 7.297066601207936
+min_cost=3, max_cost=399, bet=4
+ROUND 70; max_bet = 3 (3.6216872303627383)
+continue_cost = 1
+n = 3, p = 0.549, c = 399, my/opp_pip = 1/2
+opp_bet = 14.832334002580893
+min_cost=3, max_cost=399, bet=3
+ROUND 72; max_bet = 2 (2.827235802137807)
+continue_cost = 1
+n = 3, p = 0.487, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 72; max_bet = 6 (6.90850193942515)
+continue_cost = 0
+n = 4, p = 0.6365, c = 398, my/opp_pip = 0/0
+opp_bet = 5.11200144052109
 min_cost=2, max_cost=398, bet=5
-ROUND 31; max_bet = 24 (24.756886210974187)
-continue_cost = 5
-n = 19, p = 0.5795, c = 393, my/opp_pip = 7/12
-opp_bet = 41.55267682351368
-min_cost=10, max_cost=393, bet=24
-ROUND 31; max_bet = 90 (90.32516880839921)
-continue_cost = 21
-n = 83, p = 0.5805, c = 369, my/opp_pip = 31/52
-opp_bet = 98.01045370512523
-min_cost=42, max_cost=369, bet=90
-ROUND 31; max_bet = 157 (157.08360977420384)
-continue_cost = 0
-n = 242, p = 0.57, c = 279, my/opp_pip = 0/0
-opp_bet = 132.1282157070514
-min_cost=2, max_cost=279, bet=132
-ROUND 31; max_bet = 109 (109.4760877837048)
-continue_cost = 0
-n = 506, p = 0.478, c = 147, my/opp_pip = 0/0
+ROUND 74; max_bet = 2 (2.4134462380698096)
+continue_cost = 1
+n = 3, p = 0.4475, c = 399, my/opp_pip = 1/2
 opp_bet = inf
-min_cost=2, max_cost=147, bet=109
-ROUND 31; max_bet = 33 (33.510381212983845)
+min_cost=3, max_cost=399, bet=2
+ROUND 74; max_bet = 7 (7.770838968573173)
 continue_cost = 0
-n = 724, p = 0.416, c = 38, my/opp_pip = 0/0
+n = 4, p = 0.6635, c = 398, my/opp_pip = 0/0
+opp_bet = 3.9937570981326997
+min_cost=2, max_cost=398, bet=3
+ROUND 76; max_bet = 3 (3.808839317770662)
+continue_cost = 1
+n = 3, p = 0.5615, c = 399, my/opp_pip = 1/2
+opp_bet = 12.234480120857553
+min_cost=3, max_cost=399, bet=3
+ROUND 78; max_bet = 2 (2.4378856305154386)
+continue_cost = 1
+n = 3, p = 0.45, c = 399, my/opp_pip = 1/2
 opp_bet = inf
-min_cost=2, max_cost=38, bet=33
-ROUND 31; max_bet = 4 (4.779204349315756)
+min_cost=3, max_cost=399, bet=2
+ROUND 78; max_bet = 1 (1.838724865195445)
 continue_cost = 0
-n = 790, p = 0.381, c = 5, my/opp_pip = 0/0
+n = 4, p = 0.3165, c = 398, my/opp_pip = 0/0
 opp_bet = inf
-min_cost=2, max_cost=5, bet=4
+min_cost=2, max_cost=398, bet=1
+ROUND 78; max_bet = 1 (1.1538177789634005)
+continue_cost = 0
+n = 4, p = 0.225, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 78; max_bet = 0 (0.4103047425142563)
+continue_cost = 0
+n = 4, p = 0.0935, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 80; max_bet = 2 (2.615341572136515)
+continue_cost = 1
+n = 3, p = 0.4675, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 80; max_bet = 4 (4.480764677172829)
+continue_cost = 0
+n = 4, p = 0.531, c = 398, my/opp_pip = 0/0
+opp_bet = 20.286461788381384
+min_cost=2, max_cost=398, bet=4
+ROUND 82; max_bet = 2 (2.3892255344687214)
+continue_cost = 1
+n = 3, p = 0.445, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 82; max_bet = 3 (3.1212172495693267)
+continue_cost = 0
+n = 4, p = 0.4405, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=3
+ROUND 84; max_bet = 2 (2.711191391758973)
+continue_cost = 1
+n = 3, p = 0.4765, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 84; max_bet = 7 (7.0281958920695615)
+continue_cost = 0
+n = 4, p = 0.6405, c = 398, my/opp_pip = 0/0
+opp_bet = 4.921460309864082
+min_cost=2, max_cost=398, bet=4
+ROUND 86; max_bet = 2 (2.00412837086094)
+continue_cost = 1
+n = 3, p = 0.402, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 86; max_bet = 1 (1.2548701458325127)
+continue_cost = 0
+n = 4, p = 0.24, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1
+ROUND 86; max_bet = 0 (0.726615775293908)
+continue_cost = 0
+n = 4, p = 0.1545, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 86; max_bet = 0 (0.8638644378415279)
+continue_cost = 0
+n = 4, p = 0.1785, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=0
+ROUND 86; max_bet = 6 (6.9233214114004795)
+continue_cost = 0
+n = 4, p = 0.637, c = 398, my/opp_pip = 0/0
+opp_bet = 5.08762947337427
+min_cost=2, max_cost=398, bet=5
+ROUND 88; max_bet = 3 (3.990611933256446)
+continue_cost = 1
+n = 3, p = 0.573, c = 399, my/opp_pip = 1/2
+opp_bet = 10.409843240377132
+min_cost=3, max_cost=399, bet=3
+ROUND 90; max_bet = 3 (3.958305369293157)
+continue_cost = 1
+n = 3, p = 0.571, c = 399, my/opp_pip = 1/2
+opp_bet = 10.695953289797021
+min_cost=3, max_cost=399, bet=3
+ROUND 92; max_bet = 1 (1.6776507610547924)
+continue_cost = 1
+n = 3, p = 0.36, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=1
+ROUND 92; max_bet = 4 (4.096467043333405)
+continue_cost = 0
+n = 4, p = 0.5085, c = 398, my/opp_pip = 0/0
+opp_bet = 31.75958558142378
+min_cost=2, max_cost=398, bet=4
+ROUND 94; max_bet = 3 (3.762964522199127)
+continue_cost = 1
+n = 3, p = 0.5585, c = 399, my/opp_pip = 1/2
+opp_bet = 12.79116929330768
+min_cost=3, max_cost=399, bet=3
+ROUND 96; max_bet = 2 (2.711191391758973)
+continue_cost = 1
+n = 3, p = 0.4765, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 96; max_bet = 3 (3.71575541124389)
+continue_cost = 0
+n = 4, p = 0.484, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=3
+ROUND 98; max_bet = 3 (3.111050439149551)
+continue_cost = 1
+n = 3, p = 0.511, c = 399, my/opp_pip = 1/2
+opp_bet = 30.149691235251595
+min_cost=3, max_cost=399, bet=3
+ROUND 100; max_bet = 3 (3.7858243899221407)
+continue_cost = 1
+n = 3, p = 0.56, c = 399, my/opp_pip = 1/2
+opp_bet = 12.50810812196887
+min_cost=3, max_cost=399, bet=3
+ROUND 102; max_bet = 3 (3.019433127578054)
+continue_cost = 1
+n = 3, p = 0.5035, c = 399, my/opp_pip = 1/2
+opp_bet = 35.264762519642986
+min_cost=3, max_cost=399, bet=3
+ROUND 104; max_bet = 2 (2.46750576360688)
+continue_cost = 1
+n = 3, p = 0.453, c = 399, my/opp_pip = 1/2
+opp_bet = inf
+min_cost=3, max_cost=399, bet=2
+ROUND 104; max_bet = 1 (1.7799619022181332)
+continue_cost = 0
+n = 4, p = 0.3095, c = 398, my/opp_pip = 0/0
+opp_bet = inf
+min_cost=2, max_cost=398, bet=1

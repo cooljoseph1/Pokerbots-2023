@@ -44,7 +44,7 @@ from ai.strength import *
 
 try:
     1/0
-    prepare("ai/large.pt")
+    prepare("ai/small.pt")
 except:
     def win_chances(board, hand):
         board = [*map(eval7.Card, board)]
@@ -131,6 +131,8 @@ class Player(Bot):
         continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
         my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+
+        max_cost = math.inf
         if RaiseAction in legal_actions:
            min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
            min_cost = min_raise - my_pip  # the cost of a minimum bet/raise

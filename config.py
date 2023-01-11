@@ -6,7 +6,7 @@ PLAYER_1_PATH = "python_skeleton"
 PLAYER_2_NAME = "python_skeleton (2)"
 PLAYER_2_PATH = "python_skeleton"
 # GAME PROGRESS IS RECORDED HERE
-GAME_LOG_FILENAME = "logs/python_skeleton (1) vs. python_skeleton (2)-2023-01-11-031510"
+GAME_LOG_FILENAME = "logs/python_skeleton (1) vs. python_skeleton (2)-2023-01-11-033225"
 # PLAYER_LOG_SIZE_LIMIT IS IN BYTES
 PLAYER_LOG_SIZE_LIMIT = 524288
 # STARTING_GAME_CLOCK AND TIMEOUTS ARE IN SECONDS

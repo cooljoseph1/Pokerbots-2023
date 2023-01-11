@@ -146,7 +146,7 @@ if __name__ == "__main__":
     if load_path and path.exists(load_path):
         q_network.load_state_dict(torch.load(load_path))
 
-    q_optim = torch.optim.AdamW(q_network.parameters(), lr=1e-5)
+    q_optim = torch.optim.AdamW(q_network.parameters(), lr=1e-4)
     scheduler = torch.optim.lr_scheduler.ExponentialLR(q_optim, gamma=0.7)
     q_loss = torch.nn.HuberLoss()
 
@@ -180,9 +180,9 @@ if __name__ == "__main__":
         fig.canvas.draw()
         fig.canvas.flush_events()
     
-    running_loss = 0.1
-    for epoch in range(50):
-        for i in range(1000):
+    running_loss = 0.03
+    for epoch in range(20):
+        for i in range(2000):
             loss = train(*next(iter(train_dataloader)))
             # loss = train(*batch())
             q_optim.step()
@@ -195,7 +195,7 @@ if __name__ == "__main__":
                 running_loss = 0.9 * running_loss + 0.1 * loss.item()
                 update_line(running_loss)
             
-            if i % 200 == 199:
+            if i % 1000 == 999:
                 torch.save(q_network.state_dict(), save_path)
         
         scheduler.step()
