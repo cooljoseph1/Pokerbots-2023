@@ -1,547 +1,1289 @@
 C:\Users\James Camacho\Documents\College\Freshman\Pokerbots-2023\python_skeleton\stats\kelly.py:11: RuntimeWarning: invalid value encountered in log
   return (1-q)*np.log(d-x)+q*np.log(d+n+x)-np.log(d)
-ROUND 1; max_bet = 4 (4.9085721186133355)
-continue_cost = 1
-n = 3, p = 0.623, c = 399, my/opp_pip = 1/2
-opp_bet = 5.837301236035475
+min_cost=3, max_cost=399, bet=2
+min_cost=4, max_cost=398, bet=4
+min_cost=20, max_cost=394, bet=10
+min_cost=28, max_cost=384, bet=14
+min_cost=56, max_cost=370, bet=47
+min_cost=90, max_cost=342, bet=66
+min_cost=130, max_cost=297, bet=169
+min_cost=4, max_cost=128, bet=84
+min_cost=2, max_cost=398, bet=2
+min_cost=6, max_cost=396, bet=10
+min_cost=22, max_cost=386, bet=25
+min_cost=68, max_cost=361, bet=52
+min_cost=2, max_cost=327, bet=103
+min_cost=206, max_cost=224, bet=206
+min_cost=2, max_cost=18, bet=2
+min_cost=4, max_cost=16, bet=4
+min_cost=4, max_cost=12, bet=4
+min_cost=8, max_cost=8, bet=7
+min_cost=2, max_cost=2, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=6, max_cost=398, bet=4
+min_cost=4, max_cost=395, bet=6
+min_cost=8, max_cost=389, bet=21
+min_cost=38, max_cost=368, bet=67
+min_cost=96, max_cost=301, bet=85
+min_cost=28, max_cost=253, bet=45
+min_cost=62, max_cost=208, bet=69
+min_cost=76, max_cost=139, bet=55
+min_cost=2, max_cost=398, bet=2
+min_cost=2, max_cost=396, bet=11
 min_cost=3, max_cost=399, bet=4
-ROUND 1; max_bet = 50 (50.19368743511012)
-continue_cost = 4
-n = 14, p = 0.796, c = 395, my/opp_pip = 0/4
-opp_bet = 5.900327608238472
-min_cost=8, max_cost=395, bet=9
-ROUND 1; max_bet = 113 (113.60625599324493)
-continue_cost = 5
-n = 33, p = 0.8095, c = 386, my/opp_pip = 9/14
-opp_bet = 10.617083330081611
-min_cost=10, max_cost=386, bet=15
-ROUND 1; max_bet = 180 (180.04578729397667)
-continue_cost = 12
-n = 70, p = 0.7935, c = 371, my/opp_pip = 24/36
-opp_bet = 23.23023764349234
-min_cost=24, max_cost=371, bet=35
-ROUND 1; max_bet = 280 (280.34145937336285)
-continue_cost = 28
-n = 156, p = 0.825, c = 336, my/opp_pip = 0/28
-opp_bet = 32.936642020485706
-min_cost=56, max_cost=336, bet=60
-ROUND 1; max_bet = 241 (241.64315223827435)
-continue_cost = 69
-n = 317, p = 0.7315, c = 276, my/opp_pip = 0/69
-opp_bet = 72.13602854125114
-min_cost=138, max_cost=276, bet=141
-ROUND 1; max_bet = 134 (134.9699143769751)
-continue_cost = 21
-n = 551, p = 0.838, c = 135, my/opp_pip = 0/21
-opp_bet = 34.17332619111877
-min_cost=42, max_cost=135, bet=55
-ROUND 2; max_bet = 7 (7.086649148498168)
-continue_cost = 3
-n = 7, p = 0.5075, c = 398, my/opp_pip = 2/5
-opp_bet = 52.41905033651951
-min_cost=6, max_cost=398, bet=7
-ROUND 2; max_bet = 25 (25.391916673444427)
-continue_cost = 14
-n = 32, p = 0.4605, c = 391, my/opp_pip = 9/23
-opp_bet = inf
-min_cost=28, max_cost=391, bet=25
-ROUND 2; max_bet = 71 (71.71877753767865)
-continue_cost = 0
-n = 46, p = 0.647, c = 377, my/opp_pip = 0/0
-opp_bet = 39.97072512483979
-min_cost=2, max_cost=377, bet=39
-ROUND 2; max_bet = 190 (190.35462128416287)
-continue_cost = 51
-n = 175, p = 0.665, c = 338, my/opp_pip = 39/90
-opp_bet = 89.46382126277256
-min_cost=102, max_cost=338, bet=140
-ROUND 2; max_bet = 180 (180.87924751088173)
-continue_cost = 89
-n = 493, p = 0.662, c = 198, my/opp_pip = 179/268
-opp_bet = 68.54734147517131
-min_cost=178, max_cost=198, bet=178
-ROUND 2; max_bet = 19 (19.938139613970556)
-continue_cost = 0
-n = 760, p = 0.612, c = 20, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=2, max_cost=20, bet=2
-ROUND 2; max_bet = 17 (17.945045734837137)
-continue_cost = 14
-n = 778, p = 0.6045, c = 18, my/opp_pip = 2/16
-opp_bet = nan
-min_cost=18, max_cost=18, bet=17
-ROUND 2; max_bet = 3 (3.9999768958568676)
-continue_cost = 0
-n = 792, p = 0.695, c = 4, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=2, max_cost=4, bet=2
-ROUND 3; max_bet = 3 (3.680446618066185)
-continue_cost = 1
-n = 3, p = 0.553, c = 399, my/opp_pip = 1/2
-opp_bet = 13.916888699720737
-min_cost=3, max_cost=399, bet=3
-ROUND 3; max_bet = 14 (14.793072849053999)
-continue_cost = 4
-n = 12, p = 0.5605, c = 396, my/opp_pip = 4/8
-opp_bet = 37.276664314803085
-min_cost=8, max_cost=396, bet=14
-ROUND 3; max_bet = 58 (58.138593413145315)
-continue_cost = 15
-n = 51, p = 0.5685, c = 382, my/opp_pip = 18/33
-opp_bet = 84.08957388305872
-min_cost=30, max_cost=382, bet=58
-ROUND 3; max_bet = 156 (156.96318580403226)
-continue_cost = 48
-n = 200, p = 0.5795, c = 324, my/opp_pip = 76/124
-opp_bet = 128.10463972872788
-min_cost=96, max_cost=324, bet=156
-ROUND 3; max_bet = 132 (132.2985434997056)
-continue_cost = 82
-n = 546, p = 0.517, c = 168, my/opp_pip = 0/82
-opp_bet = nan
-min_cost=164, max_cost=168, bet=132
-ROUND 3; max_bet = 75 (75.55051840263177)
-continue_cost = 54
-n = 682, p = 0.4905, c = 86, my/opp_pip = 0/54
-opp_bet = inf
-min_cost=86, max_cost=86, bet=75
-ROUND 3; max_bet = 30 (30.428151889751422)
-continue_cost = 22
-n = 758, p = 0.4845, c = 32, my/opp_pip = 0/22
-opp_bet = inf
-min_cost=32, max_cost=32, bet=30
-ROUND 4; max_bet = 5 (5.491957724027031)
-continue_cost = 0
-n = 4, p = 0.5815, c = 398, my/opp_pip = 2/2
-opp_bet = 9.315412454645895
-min_cost=2, max_cost=398, bet=5
-ROUND 4; max_bet = 15 (15.697265430035714)
-continue_cost = 0
-n = 14, p = 0.538, c = 393, my/opp_pip = 0/0
-opp_bet = 43.45081461862743
-min_cost=2, max_cost=393, bet=15
-ROUND 5; max_bet = 4 (4.6377785784570165)
-continue_cost = 1
-n = 3, p = 0.6095, c = 399, my/opp_pip = 1/2
-opp_bet = 6.7198486262080594
-min_cost=3, max_cost=399, bet=4
-ROUND 5; max_bet = 25 (25.132054323023056)
-continue_cost = 8
-n = 18, p = 0.596, c = 395, my/opp_pip = 5/13
-opp_bet = 38.28413105584626
-min_cost=16, max_cost=395, bet=25
-ROUND 5; max_bet = 114 (114.21276270220096)
-continue_cost = 43
-n = 103, p = 0.6005, c = 370, my/opp_pip = 30/73
-opp_bet = 102.49508382473631
-min_cost=86, max_cost=370, bet=114
-ROUND 5; max_bet = 185 (185.75043821655873)
-continue_cost = 109
-n = 397, p = 0.58, c = 256, my/opp_pip = 144/253
-opp_bet = 102.05292554783347
-min_cost=218, max_cost=256, bet=185
-ROUND 5; max_bet = 120 (120.28282990956323)
-continue_cost = 41
-n = 547, p = 0.5235, c = 147, my/opp_pip = 0/41
-opp_bet = nan
-min_cost=82, max_cost=147, bet=82
-ROUND 5; max_bet = 59 (59.742473988958885)
-continue_cost = 41
-n = 711, p = 0.5035, c = 65, my/opp_pip = 82/123
-opp_bet = nan
-min_cost=65, max_cost=65, bet=59
-ROUND 5; max_bet = 23 (23.957024119416985)
-continue_cost = 10
-n = 762, p = 0.6445, c = 24, my/opp_pip = 0/10
-opp_bet = nan
-min_cost=20, max_cost=24, bet=20
-ROUND 5; max_bet = 3 (3.991815865850574)
-continue_cost = 2
-n = 794, p = 0.539, c = 4, my/opp_pip = 0/2
-opp_bet = nan
-min_cost=4, max_cost=4, bet=3
-ROUND 5; max_bet = 1 (1.9997759041135637)
-continue_cost = 0
-n = 796, p = 0.603, c = 2, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=2, max_cost=2, bet=1
-ROUND 6; max_bet = 5 (5.8757941280747445)
-continue_cost = 2
-n = 6, p = 0.4985, c = 398, my/opp_pip = 2/4
-opp_bet = inf
-min_cost=4, max_cost=398, bet=5
-ROUND 6; max_bet = 21 (21.243034759662805)
-continue_cost = 8
-n = 22, p = 0.505, c = 393, my/opp_pip = 7/15
-opp_bet = 89.77509882432187
-min_cost=16, max_cost=393, bet=21
-ROUND 6; max_bet = 65 (65.38947496894974)
-continue_cost = 26
-n = 82, p = 0.4925, c = 372, my/opp_pip = 28/54
-opp_bet = inf
-min_cost=52, max_cost=372, bet=65
-ROUND 6; max_bet = 139 (139.09482422119137)
-continue_cost = 61
-n = 247, p = 0.5055, c = 307, my/opp_pip = 93/154
-opp_bet = 159.15493409712485
-min_cost=122, max_cost=307, bet=139
-ROUND 6; max_bet = 167 (167.99958928887185)
-continue_cost = 0
-n = 464, p = 0.907, c = 168, my/opp_pip = 0/0
-opp_bet = 21.8510304535855
-min_cost=2, max_cost=168, bet=21
-ROUND 6; max_bet = 146 (146.99999625318335)
-continue_cost = 93
-n = 599, p = 0.915, c = 147, my/opp_pip = 21/114
-opp_bet = 11.749720858540316
-min_cost=147, max_cost=147, bet=146
-ROUND 6; max_bet = 53 (53.999999999999986)
-continue_cost = 0
-n = 692, p = 0.932, c = 54, my/opp_pip = 0/0
-opp_bet = 9.455559127566763
-min_cost=2, max_cost=54, bet=9
-ROUND 6; max_bet = 44 (44.999999999999986)
-continue_cost = 35
-n = 745, p = 0.926, c = 45, my/opp_pip = 9/44
-opp_bet = 2.949426529185024
-min_cost=45, max_cost=45, bet=44
-ROUND 6; max_bet = 10 (10.0)
-continue_cost = 0
-n = 780, p = 0.922, c = 10, my/opp_pip = 0/0
-opp_bet = 3.092519397739447
-min_cost=2, max_cost=10, bet=3
-ROUND 6; max_bet = 7 (7.0)
-continue_cost = 3
-n = 789, p = 0.9265, c = 7, my/opp_pip = 3/6
-opp_bet = 1.3719672543876542
-min_cost=6, max_cost=7, bet=6
-ROUND 6; max_bet = 1 (1.0)
-continue_cost = 0
-n = 798, p = 0.9215, c = 1, my/opp_pip = 0/0
-opp_bet = 0.43412554902822376
-min_cost=1, max_cost=1, bet=1
-ROUND 7; max_bet = 2 (2.6735302092940856)
-continue_cost = 1
-n = 3, p = 0.473, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=2
-ROUND 7; max_bet = 7 (7.187328990410492)
-continue_cost = 4
-n = 8, p = 0.478, c = 398, my/opp_pip = 2/6
-opp_bet = inf
-min_cost=8, max_cost=398, bet=7
-ROUND 7; max_bet = 14 (14.518866967811107)
-continue_cost = 13
-n = 25, p = 0.379, c = 394, my/opp_pip = 0/13
-opp_bet = inf
-min_cost=26, max_cost=394, bet=14
-ROUND 7; max_bet = 34 (34.334288119091184)
-continue_cost = 37
-n = 75, p = 0.3445, c = 381, my/opp_pip = 0/37
-ROUND 8; max_bet = 26 (26.17583128679047)
-continue_cost = 3
-n = 7, p = 0.796, c = 398, my/opp_pip = 2/5
-opp_bet = 3.350689153543073
-min_cost=6, max_cost=398, bet=6
-ROUND 8; max_bet = 106 (106.31115147116645)
-continue_cost = 17
-n = 33, p = 0.7965, c = 392, my/opp_pip = 8/25
-opp_bet = 15.008281005442196
-min_cost=34, max_cost=392, bet=34
-ROUND 8; max_bet = 281 (281.25167401907817)
-continue_cost = 56
-n = 140, p = 0.8235, c = 358, my/opp_pip = 42/98
-opp_bet = 34.57509611015512
-min_cost=112, max_cost=358, bet=112
-ROUND 8; max_bet = 242 (242.8973917683565)
-continue_cost = 112
-n = 420, p = 0.8145, c = 246, my/opp_pip = 154/266
-opp_bet = 42.289401441050515
-min_cost=224, max_cost=246, bet=224
-ROUND 8; max_bet = 21 (21.999993927720357)
-continue_cost = 0
-n = 756, p = 0.809, c = 22, my/opp_pip = 0/0
-opp_bet = 12.555558989478453
-min_cost=2, max_cost=22, bet=12
-ROUND 8; max_bet = 9 (9.99998417503547)
-continue_cost = 0
-n = 780, p = 0.7535, c = 10, my/opp_pip = 0/0
-opp_bet = 7.6130261455417
-min_cost=2, max_cost=10, bet=7
-ROUND 8; max_bet = 2 (2.9999612542265806)
-continue_cost = 0
-n = 794, p = 0.6685, c = 3, my/opp_pip = 0/0
-opp_bet = nan
-min_cost=2, max_cost=3, bet=2
-ROUND 9; max_bet = 2 (2.866972345949989)
-continue_cost = 1
-n = 3, p = 0.4905, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=2
-ROUND 9; max_bet = 8 (8.853354097587555)
-continue_cost = 5
-n = 9, p = 0.5015, c = 398, my/opp_pip = 2/7
-opp_bet = 66.34198615809001
-min_cost=10, max_cost=398, bet=8
-ROUND 9; max_bet = 16 (16.231433822195015)
-continue_cost = 3
-n = 17, p = 0.499, c = 393, my/opp_pip = 0/3
-opp_bet = inf
-min_cost=6, max_cost=393, bet=16
-ROUND 9; max_bet = 53 (53.735347139322755)
-continue_cost = 13
-n = 59, p = 0.514, c = 377, my/opp_pip = 16/29
-opp_bet = 120.23020737610996
-min_cost=26, max_cost=377, bet=53
-ROUND 9; max_bet = 119 (119.2376449534575)
-continue_cost = 40
-n = 192, p = 0.4965, c = 324, my/opp_pip = 69/109
-opp_bet = inf
-min_cost=80, max_cost=324, bet=119
-ROUND 9; max_bet = 137 (137.7218922906041)
-continue_cost = 79
-n = 469, p = 0.4835, c = 205, my/opp_pip = 188/267
-opp_bet = inf
-min_cost=158, max_cost=205, bet=137
-ROUND 9; max_bet = 95 (95.29263264445095)
-continue_cost = 41
-n = 589, p = 0.4485, c = 126, my/opp_pip = 0/41
-opp_bet = inf
-min_cost=82, max_cost=126, bet=95
-ROUND 9; max_bet = 29 (29.251273321981845)
-continue_cost = 14
-n = 752, p = 0.471, c = 31, my/opp_pip = 0/14
-opp_bet = inf
-min_cost=28, max_cost=31, bet=29
-ROUND 10; max_bet = 3 (3.4031648613313905)
-continue_cost = 0
-n = 4, p = 0.462, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=3
-ROUND 10; max_bet = 5 (5.021268271844917)
-continue_cost = 0
-n = 10, p = 0.3385, c = 395, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=395, bet=5
-ROUND 10; max_bet = 7 (7.34658260446804)
-continue_cost = 0
-n = 20, p = 0.2755, c = 390, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=390, bet=7
-ROUND 10; max_bet = 9 (9.420857224248948)
-continue_cost = 0
-n = 34, p = 0.2265, c = 383, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=383, bet=9
-ROUND 10; max_bet = 13 (13.871621958085314)
-continue_cost = 0
-n = 52, p = 0.225, c = 374, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=374, bet=13
-ROUND 10; max_bet = 14 (14.030774716721055)
-continue_cost = 0
-n = 78, p = 0.1685, c = 361, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=361, bet=14
-ROUND 11; max_bet = 3 (3.808839317770662)
-continue_cost = 1
-n = 3, p = 0.5615, c = 399, my/opp_pip = 1/2
-opp_bet = 12.234480120857553
-min_cost=3, max_cost=399, bet=3
-ROUND 11; max_bet = 12 (12.786496794629045)
-continue_cost = 5
-n = 13, p = 0.504, c = 396, my/opp_pip = 4/9
-opp_bet = 72.32536726421458
-min_cost=10, max_cost=396, bet=12
-ROUND 11; max_bet = 48 (48.43440219887685)
-continue_cost = 19
-n = 51, p = 0.5195, c = 384, my/opp_pip = 16/35
-opp_bet = 115.34601910675083
-min_cost=38, max_cost=384, bet=48
-ROUND 11; max_bet = 125 (125.34129499970578)
-continue_cost = 58
-n = 186, p = 0.5145, c = 336, my/opp_pip = 64/122
-opp_bet = 158.5634723596151
-min_cost=116, max_cost=336, bet=125
-ROUND 11; max_bet = 160 (160.49972220345782)
-continue_cost = 94
-n = 472, p = 0.549, c = 211, my/opp_pip = 189/283
-opp_bet = 92.25268249557037
-min_cost=188, max_cost=211, bet=160
-ROUND 11; max_bet = 114 (114.1587297056423)
-continue_cost = 72
-n = 638, p = 0.666, c = 117, my/opp_pip = 0/72
-opp_bet = 34.30133872990369
-min_cost=117, max_cost=117, bet=114
-ROUND 11; max_bet = 44 (44.91819826910007)
-continue_cost = 32
-n = 742, p = 0.688, c = 45, my/opp_pip = 0/32
-opp_bet = nan
-min_cost=45, max_cost=45, bet=44
-ROUND 11; max_bet = 13 (13.0)
-continue_cost = 7
-n = 781, p = 0.936, c = 13, my/opp_pip = 0/7
-opp_bet = 1.7044758009038825
-min_cost=13, max_cost=13, bet=13
-ROUND 12; max_bet = 6 (6.298585530434309)
-continue_cost = 2
-n = 6, p = 0.516, c = 398, my/opp_pip = 2/4
-opp_bet = 41.18151534006827
-min_cost=4, max_cost=398, bet=6
-ROUND 12; max_bet = 27 (27.248056441246774)
-continue_cost = 8
-n = 24, p = 0.548, c = 392, my/opp_pip = 8/16
-opp_bet = 65.2235972779372
-min_cost=16, max_cost=392, bet=27
-ROUND 12; max_bet = 84 (84.43719154691928)
-continue_cost = 27
-n = 97, p = 0.5275, c = 365, my/opp_pip = 35/62
-opp_bet = 134.91757161521647
-min_cost=54, max_cost=365, bet=84
-ROUND 12; max_bet = 165 (165.7686209587065)
-continue_cost = 62
-n = 300, p = 0.551, c = 281, my/opp_pip = 119/181
-opp_bet = 135.65298710393125
-min_cost=124, max_cost=281, bet=165
-ROUND 12; max_bet = 87 (87.79451787798457)
-continue_cost = 0
-n = 568, p = 0.4435, c = 116, my/opp_pip = 0/0
-opp_bet = inf
-min_cost=2, max_cost=116, bet=87
-ROUND 13; max_bet = 2 (2.0545257030711355)
-continue_cost = 1
-n = 3, p = 0.408, c = 399, my/opp_pip = 1/2
-opp_bet = inf
-min_cost=3, max_cost=399, bet=2
-ROUND 13; max_bet = 6 (6.889871835440658)
-continue_cost = 5
-n = 9, p = 0.4385, c = 398, my/opp_pip = 2/7
-opp_bet = inf
-min_cost=10, max_cost=398, bet=6
-ROUND 13; max_bet = 6 (6.332935318963962)
-continue_cost = 5
-n = 19, p = 0.256, c = 393, my/opp_pip = 0/5
-opp_bet = inf
-min_cost=10, max_cost=393, bet=6
-ROUND 13; max_bet = 7 (7.88086537908481)
-continue_cost = 4
-n = 28, p = 0.2275, c = 388, my/opp_pip = 0/4
-opp_bet = inf
-min_cost=8, max_cost=388, bet=7
-ROUND 13; max_bet = 21 (21.647937076603796)
-continue_cost = 14
-n = 46, p = 0.339, c = 384, my/opp_pip = 0/14
-opp_bet = inf
-min_cost=28, max_cost=384, bet=21
-ROUND 13; max_bet = 13 (13.907089756243693)
-continue_cost = 17
-n = 77, p = 0.1685, c = 370, my/opp_pip = 0/17
-ROUND 14; max_bet = 3 (3.9444684281284594)
-continue_cost = 0
-n = 4, p = 0.499, c = 398, my/opp_pip = 2/2
-opp_bet = inf
-min_cost=2, max_cost=398, bet=3
-ROUND 14; max_bet = 10 (10.492504589329315)
-continue_cost = 0
-n = 10, p = 0.5185, c = 395, my/opp_pip = 0/0
-opp_bet = 45.13423287304218
-min_cost=2, max_cost=395, bet=10
-ROUND 14; max_bet = 101 (101.44977967450166)
-continue_cost = 0
-n = 30, p = 0.803, c = 385, my/opp_pip = 0/0
-opp_bet = 9.00852073945055
-min_cost=2, max_cost=385, bet=9
-ROUND 14; max_bet = 188 (188.03463530056243)
-continue_cost = 21
-n = 69, p = 0.8045, c = 376, my/opp_pip = 9/30
-opp_bet = 23.06922371856015
-min_cost=42, max_cost=376, bet=44
-ROUND 14; max_bet = 279 (279.74833426956195)
-continue_cost = 45
-n = 181, p = 0.8095, c = 332, my/opp_pip = 53/98
-opp_bet = 41.17080672208397
-min_cost=90, max_cost=332, bet=90
-ROUND 14; max_bet = 236 (236.47559912062965)
-continue_cost = 72
-n = 388, p = 0.798, c = 242, my/opp_pip = 143/215
-opp_bet = 50.32736344259595
-min_cost=144, max_cost=242, bet=144
-ROUND 14; max_bet = 97 (97.70728054181392)
-continue_cost = 0
-n = 604, p = 0.747, c = 98, my/opp_pip = 0/0
-opp_bet = 48.827831318153606
-min_cost=2, max_cost=98, bet=48
-ROUND 14; max_bet = 49 (49.71737224860066)
-continue_cost = 0
-n = 700, p = 0.6565, c = 50, my/opp_pip = 0/0
-opp_bet = 38.18811172170362
-min_cost=2, max_cost=50, bet=38
-ROUND 14; max_bet = 11 (11.999999999952195)
-continue_cost = 0
-n = 776, p = 0.8625, c = 12, my/opp_pip = 0/0
-opp_bet = 5.848973776575855
-min_cost=2, max_cost=12, bet=5
-ROUND 14; max_bet = 6 (6.99999999999988)
-continue_cost = 5
-n = 791, p = 0.87, c = 7, my/opp_pip = 5/10
-opp_bet = 1.1828858138656846
+min_cost=6, max_cost=395, bet=19
+min_cost=44, max_cost=376, bet=63
+min_cost=110, max_cost=313, bet=129
+min_cost=184, max_cost=184, bet=147
+min_cost=62, max_cost=62, bet=61
 min_cost=7, max_cost=7, bet=6
-ROUND 15; max_bet = 2 (2.4924368206300187)
-continue_cost = 1
-n = 3, p = 0.4555, c = 399, my/opp_pip = 1/2
-opp_bet = inf
+min_cost=8, max_cost=398, bet=7
+min_cost=2, max_cost=394, bet=5
+min_cost=14, max_cost=389, bet=12
+min_cost=2, max_cost=382, bet=11
+min_cost=3, max_cost=399, bet=3
+min_cost=8, max_cost=396, bet=10
+min_cost=34, max_cost=386, bet=50
+min_cost=98, max_cost=336, bet=144
+min_cost=2, max_cost=398, bet=2
+min_cost=2, max_cost=396, bet=1
+min_cost=2, max_cost=396, bet=6
 min_cost=3, max_cost=399, bet=2
-ROUND 15; max_bet = 5 (5.1689888339972185)
-continue_cost = 3
-n = 7, p = 0.4285, c = 398, my/opp_pip = 2/5
-opp_bet = inf
-min_cost=6, max_cost=398, bet=5
-ROUND 15; max_bet = 71 (71.01546384096184)
-continue_cost = 10
-n = 20, p = 0.8005, c = 395, my/opp_pip = 0/10
-opp_bet = 9.189619015859256
-min_cost=20, max_cost=395, bet=20
-ROUND 15; max_bet = 238 (238.6680844282624)
-continue_cost = 33
-n = 83, p = 0.835, c = 375, my/opp_pip = 20/53
-opp_bet = 22.18178425678351
-min_cost=66, max_cost=375, bet=66
-ROUND 15; max_bet = 295 (295.3222692270366)
-continue_cost = 85
-n = 267, p = 0.8335, c = 309, my/opp_pip = 86/171
-opp_bet = 41.04698503945089
-min_cost=170, max_cost=309, bet=170
-ROUND 15; max_bet = 137 (137.93844328992492)
-continue_cost = 18
-n = 540, p = 0.7545, c = 139, my/opp_pip = 0/18
-opp_bet = 53.655816365935884
-min_cost=36, max_cost=139, bet=71
-ROUND 15; max_bet = 67 (67.98112400298234)
-continue_cost = 53
-n = 717, p = 0.77, c = 68, my/opp_pip = 71/124
-opp_bet = 10.418797404400348
-min_cost=68, max_cost=68, bet=67
-ROUND 15; max_bet = 14 (14.999999999999991)
-continue_cost = 2
-n = 772, p = 0.8985, c = 15, my/opp_pip = 0/2
-opp_bet = 4.827889065677588
-min_cost=4, max_cost=15, bet=6
-ROUND 15; max_bet = 8 (8.99999999999997)
-continue_cost = 4
-n = 786, p = 0.8815, c = 9, my/opp_pip = 6/10
-opp_bet = 2.471545862046569
-min_cost=8, max_cost=9, bet=8
-ROUND 15; max_bet = 1 (1.0)
-continue_cost = 1
-n = 799, p = 0.8795, c = 1, my/opp_pip = 14/15
-opp_bet = 0
-Traceback (most recent call last):
-  File "C:\Users\James Camacho\Documents\College\Freshman\Pokerbots-2023\python_skeleton\player.py", line 178, in <module>
-    run_bot(Player(), parse_args())
-  File "C:\Users\James Camacho\Documents\College\Freshman\Pokerbots-2023\python_skeleton\skeleton\runner.py", line 130, in run_bot
-    runner.run()
-  File "C:\Users\James Camacho\Documents\College\Freshman\Pokerbots-2023\python_skeleton\skeleton\runner.py", line 105, in run
-    action = self.pokerbot.get_action(game_state, round_state, active)
-  File "C:\Users\James Camacho\Documents\College\Freshman\Pokerbots-2023\python_skeleton\player.py", line 165, in get_action
-    bet = min(max_bet, max_cost, max(min_cost, opp_bet + continue_cost))
-UnboundLocalError: local variable 'max_cost' referenced before assignment
+min_cost=6, max_cost=398, bet=8
+min_cost=12, max_cost=390, bet=18
+min_cost=24, max_cost=372, bet=26
+min_cost=74, max_cost=346, bet=45
+min_cost=30, max_cost=309, bet=116
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=8, max_cost=398, bet=7
+min_cost=12, max_cost=394, bet=15
+min_cost=62, max_cost=379, bet=56
+min_cost=46, max_cost=348, bet=117
+min_cost=2, max_cost=398, bet=4
+min_cost=2, max_cost=394, bet=9
+min_cost=3, max_cost=399, bet=1
+min_cost=6, max_cost=398, bet=7
+min_cost=20, max_cost=391, bet=34
+min_cost=84, max_cost=357, bet=81
+min_cost=88, max_cost=315, bet=139
+min_cost=84, max_cost=176, bet=84
+min_cost=4, max_cost=92, bet=77
+min_cost=12, max_cost=15, bet=14
+min_cost=2, max_cost=398, bet=3
+min_cost=6, max_cost=395, bet=17
+min_cost=2, max_cost=378, bet=44
+min_cost=3, max_cost=399, bet=2
+min_cost=4, max_cost=398, bet=2
+min_cost=4, max_cost=396, bet=5
+min_cost=6, max_cost=391, bet=8
+min_cost=12, max_cost=383, bet=23
+min_cost=2, max_cost=398, bet=2
+min_cost=14, max_cost=396, bet=10
+min_cost=2, max_cost=389, bet=10
+min_cost=20, max_cost=379, bet=31
+min_cost=80, max_cost=348, bet=61
+min_cost=2, max_cost=308, bet=48
+min_cost=3, max_cost=399, bet=2
+min_cost=6, max_cost=398, bet=6
+min_cost=24, max_cost=392, bet=25
+min_cost=76, max_cost=367, bet=89
+min_cost=172, max_cost=278, bet=158
+min_cost=2, max_cost=398, bet=3
+min_cost=2, max_cost=395, bet=14
+min_cost=2, max_cost=381, bet=48
+min_cost=2, max_cost=333, bet=101
+min_cost=2, max_cost=232, bet=116
+min_cost=3, max_cost=399, bet=1
+min_cost=6, max_cost=398, bet=8
+min_cost=10, max_cost=390, bet=11
+min_cost=22, max_cost=379, bet=38
+min_cost=80, max_cost=341, bet=55
+min_cost=230, max_cost=301, bet=165
+min_cost=148, max_cost=186, bet=85
+min_cost=2, max_cost=398, bet=2
+min_cost=8, max_cost=396, bet=6
+min_cost=2, max_cost=392, bet=3
+min_cost=16, max_cost=389, bet=8
+min_cost=2, max_cost=381, bet=10
+min_cost=3, max_cost=399, bet=3
+min_cost=6, max_cost=396, bet=6
+min_cost=24, max_cost=390, bet=22
+min_cost=14, max_cost=378, bet=35
+min_cost=56, max_cost=343, bet=84
+min_cost=112, max_cost=259, bet=113
+min_cost=114, max_cost=146, bet=76
+min_cost=58, max_cost=89, bet=72
+min_cost=8, max_cost=17, bet=12
+min_cost=4, max_cost=398, bet=3
+min_cost=2, max_cost=396, bet=1
+min_cost=3, max_cost=399, bet=3
+min_cost=4, max_cost=396, bet=5
+min_cost=12, max_cost=391, bet=34
+min_cost=3, max_cost=399, bet=4
+min_cost=12, max_cost=395, bet=13
+min_cost=20, max_cost=382, bet=27
+min_cost=56, max_cost=355, bet=64
+min_cost=184, max_cost=291, bet=149
+min_cost=199, max_cost=199, bet=178
+min_cost=92, max_cost=92, bet=88
+min_cost=4, max_cost=36, bet=4
+min_cost=4, max_cost=32, bet=4
+min_cost=28, max_cost=28, bet=27
+min_cost=2, max_cost=2, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=2, max_cost=395, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=10, max_cost=398, bet=6
+min_cost=6, max_cost=398, bet=7
+min_cost=30, max_cost=391, bet=21
+min_cost=2, max_cost=376, bet=30
+min_cost=2, max_cost=346, bet=23
+min_cost=136, max_cost=323, bet=142
+min_cost=2, max_cost=181, bet=115
+min_cost=3, max_cost=399, bet=1
+min_cost=6, max_cost=398, bet=6
+min_cost=18, max_cost=392, bet=18
+min_cost=48, max_cost=374, bet=48
+min_cost=188, max_cost=326, bet=188
+min_cost=138, max_cost=138, bet=137
+min_cost=4, max_cost=51, bet=18
+min_cost=32, max_cost=33, bet=32
+min_cost=2, max_cost=398, bet=2
+min_cost=2, max_cost=396, bet=5
+min_cost=3, max_cost=399, bet=3
+min_cost=4, max_cost=396, bet=10
+min_cost=20, max_cost=386, bet=40
+min_cost=142, max_cost=346, bet=74
+min_cost=116, max_cost=275, bet=88
+min_cost=64, max_cost=217, bet=36
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=4, max_cost=398, bet=5
+min_cost=12, max_cost=393, bet=14
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=10, max_cost=398, bet=5
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=6
+min_cost=2, max_cost=392, bet=8
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=2, max_cost=393, bet=14
+min_cost=58, max_cost=379, bet=89
+min_cost=128, max_cost=290, bet=157
+min_cost=2, max_cost=133, bet=71
+min_cost=2, max_cost=62, bet=48
+min_cost=2, max_cost=14, bet=8
+min_cost=2, max_cost=6, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=8, max_cost=396, bet=10
+min_cost=44, max_cost=386, bet=49
+min_cost=144, max_cost=337, bet=136
+min_cost=258, max_cost=265, bet=186
+min_cost=136, max_cost=136, bet=135
+min_cost=16, max_cost=46, bet=36
+min_cost=3, max_cost=399, bet=2
+min_cost=4, max_cost=398, bet=3
+min_cost=2, max_cost=396, bet=5
+min_cost=2, max_cost=398, bet=3
+min_cost=2, max_cost=395, bet=8
+min_cost=18, max_cost=387, bet=38
+min_cost=134, max_cost=349, bet=160
+min_cost=189, max_cost=189, bet=116
+min_cost=2, max_cost=84, bet=64
+min_cost=2, max_cost=20, bet=10
+min_cost=3, max_cost=399, bet=2
+min_cost=4, max_cost=398, bet=6
+min_cost=8, max_cost=392, bet=12
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=4, max_cost=396, bet=10
+min_cost=72, max_cost=386, bet=42
+min_cost=76, max_cost=350, bet=112
+min_cost=202, max_cost=238, bet=166
+min_cost=137, max_cost=137, bet=113
+min_cost=4, max_cost=44, bet=40
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=4, max_cost=398, bet=3
+min_cost=2, max_cost=396, bet=7
+min_cost=8, max_cost=398, bet=4
+min_cost=2, max_cost=394, bet=5
+min_cost=10, max_cost=389, bet=6
+min_cost=2, max_cost=384, bet=19
+min_cost=3, max_cost=399, bet=1
+min_cost=4, max_cost=398, bet=6
+min_cost=8, max_cost=392, bet=6
+min_cost=64, max_cost=388, bet=33
+min_cost=4, max_cost=398, bet=4
+min_cost=10, max_cost=394, bet=14
+min_cost=40, max_cost=380, bet=41
+min_cost=132, max_cost=339, bet=145
+min_cost=158, max_cost=194, bet=149
+min_cost=2, max_cost=115, bet=82
+min_cost=2, max_cost=33, bet=26
+min_cost=2, max_cost=7, bet=6
+min_cost=1, max_cost=1, bet=0
+min_cost=1, max_cost=1, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=5
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=5
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=6
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=4
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=2
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=3
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=2, max_cost=398, bet=0
+min_cost=3, max_cost=399, bet=1
+min_cost=2, max_cost=398, bet=1
+min_cost=2, max_cost=398, bet=2
+min_cost=3, max_cost=399, bet=3
+min_cost=3, max_cost=399, bet=4
+min_cost=3, max_cost=399, bet=3

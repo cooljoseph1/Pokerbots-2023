@@ -10,16 +10,7 @@ import eval7
 import math
 from itertools import combinations
 
-def best(hand, board):
-    strength = -1
-    comb = None
-    for five in map(list, combinations(board, 5)):
-        if eval7.evaluate(hand + five) > strength:
-            comb = hand + five
-            strength = eval7.evaluate(comb)
-    return strength, comb
-
-def approx(board, hand, iters=1000):
+def approx(board, hand, iters=50):
     t = 0
     for i in range(iters):
         deck = eval7.Deck()
@@ -34,10 +25,10 @@ def approx(board, hand, iters=1000):
             b += deck.deal(5 - len(board))
         while b[-1].suit in (1, 2):
             b += deck.deal(1)
-        my_strength, _ = best(hand, b)
-        opp_strength, _ = best(opp_hand, b)
+        my_strength = eval7.evaluate(hand + b)
+        opp_strength = eval7.evaluate(opp_hand + b)
         t += int(my_strength > opp_strength) + 0.5 * int(my_strength == opp_strength)
-    return t / iters
+    return t / iters - 1 / 2 / iters**0.5 # Subtract one standard deviation to be more conservative.
 
 
 from ai.strength import *
@@ -133,10 +124,17 @@ class Player(Bot):
         opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
 
         max_cost = math.inf
+        min_cost = -math.inf
         if RaiseAction in legal_actions:
            min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
            min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
            max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
+
+        if game_state.bankroll > 1.5 * (NUM_ROUNDS - game_state.round_num):
+            if FoldAction in legal_actions:
+                return FoldAction()
+            else:
+                return CheckAction()
 
         # TODO: more fancy stuff based on previous rounds.
         p = win_chances(board_cards, my_cards)
@@ -148,10 +146,6 @@ class Player(Bot):
             max_bet = int(kelly_me(n, p, my_stack))
         except:
             raise Exception(f"{n} {p} {my_stack} {kelly_me(n, p, my_stack)}")
-
-        print(f"ROUND {game_state.round_num}; max_bet = {max_bet} ({kelly_me(n, p, my_stack)})")
-        print(f"continue_cost = {continue_cost}")
-        print(f"n = {n}, p = {p}, c = {my_stack}, my/opp_pip = {my_pip}/{opp_pip}")
         
         if continue_cost > max_bet: # Not worth it to even call.
             if CheckAction in legal_actions:
@@ -163,7 +157,7 @@ class Player(Bot):
             opp_bet = 0
         else:
             opp_bet = kelly_opp(n + continue_cost, q, opp_stack)
-        print(f"opp_bet = {opp_bet}")
+        
         bet = min(max_bet, max_cost, max(min_cost, opp_bet + continue_cost))
         bet = int(bet)
 

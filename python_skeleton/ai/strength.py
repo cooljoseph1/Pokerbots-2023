@@ -1,4 +1,7 @@
-from .train import CARD_ORDER, SAVE_PATH, QNN
+try:
+    from .train import CARD_ORDER, SAVE_PATH, QNN
+except:
+    from train import CARD_ORDER, SAVE_PATH, QNN
 import torch
 
 model = None
