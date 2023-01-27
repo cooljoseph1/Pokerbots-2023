@@ -147,7 +147,7 @@ class Player(Bot):
         eps = 1e-2
         p = min(1-eps, max(eps, p))
 
-        actions = ["fold", "check", "call", "raise small", "raise medium", "raise large"]
+        actions = ["raise large", "raise medium", "raise small", "call", "check", "fold"]
         """
         Meaning of the actions:
         fold: fold.

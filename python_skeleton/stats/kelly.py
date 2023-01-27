@@ -27,4 +27,6 @@ def reach_winline_chances(advantage, line):
     """
     if advantage >= line:
         return 1.0
+    if advantage <= -line:
+        return -1.0
     return (1 + abs(advantage / (1 + line)) ** (0.3333333) * sign(advantage)) / 2
