@@ -20,7 +20,7 @@ def get_winner(hand, board, cards):
     opp_strength = eval7.evaluate(opp_hand + board)
     return int(my_strength > opp_strength) + 0.5 * int(my_strength == opp_strength)
 
-def approx(board, hand, iters=1000):
+def approx(board, hand, iters=500):
     deck = eval7.Deck()
     for card in hand + board:
         deck.cards.remove(card)
