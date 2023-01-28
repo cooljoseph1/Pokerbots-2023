@@ -29,4 +29,53 @@ def reach_winline_chances(advantage, line):
         return 1.0
     if advantage <= -line:
         return 0.0
+    return (1 + (advantage / (1 + line))) / 2
     return (1 + abs(advantage / (1 + line)) ** (0.3333333) * sign(advantage)) / 2
+
+def reach_winline_chances_deriv(advantage, line):
+    """
+    Derivative of above function.
+    """
+    if advantage >= line:
+        return 0
+    if advantage <= -line:
+        return 0
+    
+    return sign(advantage) * abs(advantage / (1 + line))**(-5/3) / 6
+def minimax(bankroll, pot, contribution, call_cost, raise_amounts, line, p, q, depth=3):
+    """
+    Gives your expected winnings according to minimax, as well as the index of the action.
+        0 - Fold
+        1 - Check/call
+        2, 3, 4 - Raise
+
+    Simulates the opponent's strength as a beta distribution that peaks at 1 - strength.
+    """
+    if depth == 0:
+        # Fold chance
+        fold_chance = reach_winline_chances(bankroll - contribution, line)
+        # Check/call chance
+        check_chance = p * reach_winline_chances(bankroll + pot - contribution, line) + \
+                        q * reach_winline_chances(bankroll - contribution - call_cost, line)
+        check_chance /= p + q
+        
+        # if pot > 200:
+        #     print("Raising analysis: (depth 0): ", bankroll, pot, contribution, call_cost, p, q, fold_chance, check_chance)
+        
+        # No raising allowed at the end of depth (wouldn't make sense because we can't simulate opponent putting more into the pot).
+        return (fold_chance, check_chance)
+
+    # Chance if you fold
+    chances = [reach_winline_chances(bankroll - contribution, line)]
+
+    # Chance if you check/call
+    chances.append(1 - max(minimax(-bankroll, pot+call_cost, contribution+call_cost, 0,
+                                raise_amounts, line, q, p, depth=depth-1)))
+    
+    # Chance if you raise
+    for amount in raise_amounts:
+        chances.append(1 - max(minimax(-bankroll, pot+call_cost+amount, contribution+call_cost, amount,
+                                    raise_amounts, line, q, p, depth=depth-1)))
+    # print("Depth analysis:", depth, bankroll, pot, contribution, call_cost, chances)
+    
+    return chances

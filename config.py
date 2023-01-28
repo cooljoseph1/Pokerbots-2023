@@ -1,12 +1,12 @@
 # PARAMETERS TO CONTROL THE BEHAVIOR OF THE GAME ENGINE
 # DO NOT REMOVE OR RENAME THIS FILE
-PLAYER_1_NAME = "python_skeleton"
-PLAYER_1_PATH = "python_skeleton"
+PLAYER_1_NAME = "python_skeleton_minimax"
+PLAYER_1_PATH = "python_skeleton_minimax"
 # NO TRAILING SLASHES ARE ALLOWED IN PATHS
 PLAYER_2_NAME = "python_skeleton_old"
 PLAYER_2_PATH = "python_skeleton_old"
 # GAME PROGRESS IS RECORDED HERE
-GAME_LOG_FILENAME = "logs/python_skeleton vs. python_skeleton_old-2023-01-27-081511"
+GAME_LOG_FILENAME = "logs/python_skeleton_minimax vs. python_skeleton_old-2023-01-28-060116"
 # PLAYER_LOG_SIZE_LIMIT IS IN BYTES
 PLAYER_LOG_SIZE_LIMIT = 524288
 # STARTING_GAME_CLOCK AND TIMEOUTS ARE IN SECONDS

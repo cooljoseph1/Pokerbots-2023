@@ -160,7 +160,16 @@ class Player(Bot):
 
         raise_amounts = [min_cost, int((min_cost * max_cost)**0.5), max_cost]
         strengths = {}
-        chances = minimax(game_state.bankroll, my_contribution+opp_contribution, my_contribution, continue_cost, raise_amounts, win_line, p)
+
+        chances = np.zeros(2 + len(raise_amounts))
+        weight = 0
+        for i in range(10):
+            q = np.random.beta(2 - 2*p, 2*p)
+            w = q ** (2 - 2*p) * (1 - q) ** (2*p)
+            weight += w
+            chances += w * np.array(minimax(game_state.bankroll, my_contribution+opp_contribution, my_contribution, continue_cost,
+                                            raise_amounts, win_line, p, q))
+        chances /= weight # Not necessary, but keeps us sane when computing chances.
         print(game_state.round_num, game_state.bankroll, my_contribution+opp_contribution, continue_cost, win_line, p, chances)
         strengths["fold"] = chances[0]
         strengths["call"] = chances[1]

@@ -1,5 +1,6 @@
 __pycache__/
 cfr/
+*.zip
 *.txt
 logs/
 *.class

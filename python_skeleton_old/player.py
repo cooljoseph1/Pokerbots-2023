@@ -158,7 +158,28 @@ class Player(Bot):
         raise large: Raise the maximum you can.
         """
 
+        raise_amounts = [min_cost, int((min_cost * max_cost)**0.5), max_cost]
         strengths = {}
+
+        chances = np.zeros(2 + len(raise_amounts))
+        weight = 0
+        for i in range(1):
+            q = np.random.beta(2 - 2*p, 2*p)
+            q = 1 - p
+            w = q ** (2 - 2*p) * (1 - q) ** (2*p)
+            weight += w
+            chances += w * np.array(minimax(game_state.bankroll, my_contribution+opp_contribution, my_contribution, continue_cost,
+                                            raise_amounts, win_line, p, q))
+        chances /= weight # Not necessary, but keeps us sane when computing chances.
+        print(game_state.round_num, game_state.bankroll, my_contribution+opp_contribution, continue_cost, win_line, p, chances)
+        strengths["fold"] = chances[0]
+        strengths["call"] = chances[1]
+        strengths["check"] = chances[1]
+        strengths["raise small"] = chances[2]
+        strengths["raise medium"] = chances[3]
+        strengths["raise large"] = chances[4]
+
+        """ # Old code:
         for action in actions:
             if action == "fold":
                 strengths[action] = reach_winline_chances(advantage_if_fold, win_line)
@@ -188,8 +209,10 @@ class Player(Bot):
                 win_advantage = new_equilibrium + advantage_if_fold
                 lose_advantage = advantage_if_fold - raise_amount
                 strengths[action] = p * reach_winline_chances(win_advantage, win_line) + (1 - p) * reach_winline_chances(lose_advantage, win_line)
-    
-        actions.sort(key=lambda action: strengths[action], reverse=True) # Sort the actions we might take in reverse order, so the best action is first
+        """
+
+        tiebreakers = {"fold": 0, "check": 4, "call": 4, "raise small": 3, "raise medium": 2, "raise large":1}
+        actions.sort(key=lambda action: (strengths[action], tiebreakers[action]), reverse=True) # Sort the actions we might take in reverse order, so the best action is first
         for action in actions:
             # First, check if we can do the action. If we can't, then move on to the next action possible
             if action == "fold":
