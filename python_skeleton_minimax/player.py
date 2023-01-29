@@ -165,6 +165,9 @@ class Player(Bot):
         weight = 0
         for i in range(10):
             q = np.random.beta(2 - 2*p, 2*p)
+            if opp_contribution > 15:
+                # Be more cautious if they are very confident they'll win.
+                q = min(2 * q, q / 2 + 0.5)
             w = q ** (2 - 2*p) * (1 - q) ** (2*p)
             weight += w
             chances += w * np.array(minimax(game_state.bankroll, my_contribution+opp_contribution, my_contribution, continue_cost,
